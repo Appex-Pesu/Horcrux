@@ -35,9 +35,9 @@ const Navbar = () => {
           <span className="line line3"></span>
         </div>
         <ul className="menu-items">
-          <li className="borderXwidth">
+{/*           <li className="borderXwidth">
             <a href="#About">About</a>
-          </li>
+          </li> */}
           <li className="borderXwidth">
             <a href="#Theme">Theme</a>
           </li>
@@ -50,12 +50,12 @@ const Navbar = () => {
           <li className="borderXwidth">
             <a href="#Prize">Prizes</a>
           </li>
-          <li className="borderXwidth">
+{/*           <li className="borderXwidth">
             <a href="#Judges">Judges</a>
-          </li>
-          <li className="borderXwidth">
+          </li> */}
+{/*           <li className="borderXwidth">
             <a href="#Gallery">Gallery</a>
-          </li>
+          </li> */}
           <li className="borderXwidth">
             <a href="#Footer">Contact</a>
           </li>
