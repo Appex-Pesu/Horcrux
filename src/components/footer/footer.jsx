@@ -17,15 +17,15 @@ const footer = () => {
           </a>
         </div>
         <div className="venueContent">
-          <h4 className="date">28-30 July, 2023</h4>
+          <h4 className="date">30-31 August, 2024</h4>
           <h3 className="footerTitle">Venue Location </h3>
           <address className="address">
-            Meghanad Saha Institute Of Technology, Kolkata <br />
-            West Bengal, India
+            PES University <br />
+            Bengaluru, India
           </address>
           <div className="location">
             <a
-              href="https://maps.app.goo.gl/KF6F1czsG1gGNumL9"
+              href="https://maps.app.goo.gl/55EuXrLmb7cfy5az9?g_st=aw"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -65,7 +65,7 @@ const footer = () => {
       </div>
       <div className="copyContainer">
         <p>
-          <span>©</span> {currentYear} Hackerspace | Developer <span>MSIT</span>
+          <span>©</span> {currentYear} Appex | Developer <span>MSIT</span>
         </p>
       </div>
     </footer>

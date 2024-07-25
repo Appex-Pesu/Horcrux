@@ -1,7 +1,7 @@
 [
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontText": "Generative AI and Machine Learning ",
     "backText": [
       "Consectetur adipisicing elit. Possimus, praesentium?",
       "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
@@ -9,7 +9,7 @@
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontText": "Web3 and CyberSecurity",
     "backText": [
       "Consectetur adipisicing elit. Possimus, praesentium?",
       "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
@@ -17,7 +17,7 @@
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontText": "Web / App Development",
     "backText": [
       "Consectetur adipisicing elit. Possimus, praesentium?",
       "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
@@ -25,7 +25,7 @@
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontText": "EdTech",
     "backText": [
       "Consectetur adipisicing elit. Possimus, praesentium?",
       "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
@@ -33,7 +33,7 @@
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontText": "AR /  VR",
     "backText": [
       "Consectetur adipisicing elit. Possimus, praesentium?",
       "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
@@ -41,34 +41,14 @@
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
-    "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
-    ]
-  },
-  {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
-    "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
-    ]
-  },
-  {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
-    "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
-    ]
-  },
-  {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontText": "Open Innovation",
     "backText": [
       "Consectetur adipisicing elit. Possimus, praesentium?",
       "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
     ]
   }
+  
+ 
+
+  
 ]
