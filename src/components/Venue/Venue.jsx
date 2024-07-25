@@ -21,14 +21,14 @@ const Venue = () => {
         </div>
         <div className="venue-subsection">
           <div className="venue-subheading-left">
-            <h4 className="venue-date">28-30 July, 2023</h4>
+            <h4 className="venue-date">30-31 August, 2024</h4>
             <address className="venue-address">
-              Meghnad Saha Institute Of Technology, Kolkata <br />
-              West Bengal, India
+              PES University , Bengaluru <br />
+              Karnataka, India
             </address>
             <div className="venue-location">
               <a
-                href="https://www.google.com/maps/@22.5105556,88.4151563,3a,90y,204.34h,103.93t/data=!3m8!1e1!3m6!1sAF1QipPanWJHn1MPsns8prP_jOR0fxyPUZ1nQ47tRqw1!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPanWJHn1MPsns8prP_jOR0fxyPUZ1nQ47tRqw1%3Dw203-h100-k-no-pi-0-ya154-ro-0-fo100!7i8704!8i4352?hl=en-US&entry=ttu"
+                href="https://maps.app.goo.gl/55EuXrLmb7cfy5az9?g_st=aw"
                 rel="noopener noreferrer"
                 target="_blank"
               >
