@@ -73,7 +73,7 @@ h1 {
 }
 
 .hackerspace {
-  color: #ffae00;
+  color: #9e52e9;
   font-size: 3rem;
   font-family: Poppins, sans-serif;
   font-weight: normal;
@@ -100,7 +100,7 @@ h3 {
   margin-top: 0;
   font-size: 2.5rem;
   line-height: 5rem;
-  color: #efa506;
+  color: #9e52e9;
   display: flex;
   flex-direction: column;
   padding-bottom: 0;
@@ -138,7 +138,7 @@ h3 {
 
 .timer-item-label {
   font-size: 17px;
-  color: #efa506;
+  color: #9e52e9;
   font-family: Poppins, sans-serif;
 }
 
@@ -159,7 +159,7 @@ h3 {
 }
 
 .span2 {
-  color: #ffae00;
+  color: #9e52e9;
 }
 
 .span3 {
@@ -194,11 +194,11 @@ h3 {
 }
 
 .college-name a:hover {
-  color: #ffae00;
+  color: #9e52e9;
 }
 
 .college-name a span {
-  color: #ffae00;
+  color: #9e52e9;
   padding-right: 0.5rem;
 }
 
@@ -233,18 +233,18 @@ h3 {
 }
 
 .register-btn:hover a {
-  color: #ffae00;
+  color: #9e52e9;
 }
 
 .register-btn {
-  background-color: #ffae00 !important;
+  background-color: #9e52e9 !important;
   color: #000 !important;
 }
 
 .register-btn:hover {
-  color: #ffae00 !important;
+  color: #9e52e9 !important;
   background-color: transparent !important;
-  border-color: #ffae00 !important;
+  border-color: #9e52e9 !important;
 }
 
 .register {
@@ -366,6 +366,7 @@ h3 {
 
   .register-btn {
     margin-right: 0;
+	align-items: center;
   }
   .logo img {
     width: 180px;

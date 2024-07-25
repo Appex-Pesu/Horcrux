@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
 
 const Home = () => {
-  // const hackathonDate = new Date('2023-07-28');
+  const hackathonDate = new Date('2024-08-30');
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
@@ -21,8 +21,8 @@ const Home = () => {
 
   function calculateTimeLeft() {
     const currentTime = new Date();
-    const targetDate = new Date("2023-07-27");
-    targetDate.setHours(23, 59, 59); // Set the target time to 11:59 pm
+    const targetDate = new Date("2024-08-30");
+    targetDate.setHours(16, 1, 1); // Set the target time to 11:59 pm
 
     const timeDiff = targetDate.getTime() - currentTime.getTime();
 
@@ -58,7 +58,7 @@ const Home = () => {
       <div className="section">
         <div className="left-section">
           <h3 className="date">
-            <b className="lgx-counter">28</b> <span>July</span>
+            <b className="lgx-counter">30</b> <span>August</span>
           </h3>
           <div className="timer">
             <div className="timer-item">
@@ -86,19 +86,10 @@ const Home = () => {
               <a href="https://hackthefuture.devfolio.co/" target="_blank">
                 Register Now <FiArrowUpRight />
               </a>
-            </button>
-            <button
-              type="button"
-              className="btn btn-2 hover-slide-right discord"
-            >
-              <a href="https://discord.gg/q9vHfn9M" target="_blank">
-                Join Here <BsDiscord />
-              </a>
-            </button>
+            </button> 
           </div>
         </div>
-        <div className="right-section">
-          <h1 className="hackerspace">&#x23;HackerSpace</h1>
+        <div className="right-section"> 
           <h1 className="greetings">
             Welcome to Hackathon&nbsp;
             <span className="year">
@@ -113,12 +104,10 @@ const Home = () => {
             and leave your mark at our Hackathon event."
           </p>
           <h3 className="college-name">
-            <a href="https://msit.edu.in/" target="_blank">
               <span>
                 <IoLocationSharp />
               </span>
-              Meghnad Saha Institute of Technology
-            </a>
+              PES University
           </h3>
         </div>
       </div>
