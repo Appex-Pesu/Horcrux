@@ -22,7 +22,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Home />
-      <About />
+	  {/* <About /> */}
       <Theme />
       <Venue />
       <Scheduled />
