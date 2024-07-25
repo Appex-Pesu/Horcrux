@@ -35,16 +35,23 @@ const Navbar = () => {
           <span className="line line3"></span>
         </div>
         <ul className="menu-items">
+<<<<<<< HEAD
 {/*           <li className="borderXwidth">
             <a href="#About">About</a>
           </li> */}
+=======
           <li className="borderXwidth">
-            <a href="#Theme">Theme</a>
+            <a href="#About">Home</a>
+          </li>
+>>>>>>> a0321dc (stage 2)
+          <li className="borderXwidth">
+            <a href="#Theme">Tracks</a>
           </li>
           <li className="borderXwidth">
             <a href="#Venue">Venue</a>
           </li>
           <li className="borderXwidth">
+<<<<<<< HEAD
             <a href="#Schedule">Schedule</a>
           </li>
           <li className="borderXwidth">
@@ -56,6 +63,10 @@ const Navbar = () => {
 {/*           <li className="borderXwidth">
             <a href="#Gallery">Gallery</a>
           </li> */}
+=======
+            <a href="#Schedule">Timeline</a>
+          </li>
+>>>>>>> a0321dc (stage 2)
           <li className="borderXwidth">
             <a href="#Footer">Contact</a>
           </li>

@@ -28,7 +28,7 @@
 }
 
 .hackathon-title {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fff;
   font-weight: bold;
   animation: fadeIn 1s;
@@ -37,10 +37,10 @@
 }
 
 .hackathon-title span {
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: "Londrina Outline", cursive;
-  text-shadow: 0 0 5px #02f2fa, 0 0 10px #02f2fa, 0 0 15px #02f2fa,
-    0 0 20px #02f2fa, 0 0 25px #02f2fa, 0 0 30px #02f2fa;
+  text-shadow: 0 0 5px #02f21a, 0 0 10px #02f21a, 0 0 15px #02f21a,
+    0 0 20px #02f21a, 0 0 25px #02f21a, 0 0 30px #02f21a;
 }
 
 .section {
@@ -73,7 +73,7 @@ h1 {
 }
 
 .hackerspace {
-  color: #9e52e9;
+  color: #02f2fa;
   font-size: 3rem;
   font-family: Poppins, sans-serif;
   font-weight: normal;
@@ -100,7 +100,7 @@ h3 {
   margin-top: 0;
   font-size: 2.5rem;
   line-height: 5rem;
-  color: #9e52e9;
+  color: #02f2fa;
   display: flex;
   flex-direction: column;
   padding-bottom: 0;
@@ -138,13 +138,13 @@ h3 {
 
 .timer-item-label {
   font-size: 17px;
-  color: #9e52e9;
+  color: #999;
   font-family: Poppins, sans-serif;
 }
 
 .greetings {
   font-family: Oswald, sans-serif;
-  font-size: 6rem;
+  font-size: 5rem;
   color: #fff;
   line-height: 116px;
   margin: 0;
@@ -194,11 +194,11 @@ h3 {
 }
 
 .college-name a:hover {
-  color: #9e52e9;
+  color: #02f2fa;
 }
 
 .college-name a span {
-  color: #9e52e9;
+  color: #02f2fa;
   padding-right: 0.5rem;
 }
 
@@ -221,52 +221,45 @@ h3 {
   align-items: center;
   justify-content: center;
   color: #000;
-}
+
+  }
+
+
+.register-btn {
+  background-color: transparent;
+  border: 2px solid #02f2fa; 
+  color: #02f2fa; 
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center; 
+  text-decoration: none; 
+  }
 
 .register-btn a {
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: #000;
-}
+  color: inherit;
+  background-color: transparent;
+  border: 2px solid #02f2fa; 
+  color: #02f2fa; 
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center; 
+  text-decoration: none;
 
-.register-btn:hover a {
-  color: #9e52e9;
-}
-
-.register-btn {
-  background-color: #9e52e9 !important;
-  color: #000 !important;
 }
 
 .register-btn:hover {
-  color: #9e52e9 !important;
-  background-color: transparent !important;
-  border-color: #9e52e9 !important;
+  background-color: transparent;
+  color: #02f21a;
+  border-color: #02f21a;
 }
 
 .register {
   transform: rotate(-45deg);
-}
-
-.discord {
-  background-color: #9e52e9 !important;
-}
-
-.discord a {
-  color: #000;
-  text-decoration: none;
-}
-
-.discord:hover {
-  border: 2px solid #9e52e9 !important;
-  background-color: transparent !important;
-}
-
-.discord:hover > a {
-  color: #9e52e9;
 }
 
 @keyframes fadeIn {

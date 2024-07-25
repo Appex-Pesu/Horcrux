@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
-import { BsDiscord } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
 
 const Home = () => {
-  const hackathonDate = new Date('2024-08-30');
-
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
@@ -52,7 +49,7 @@ const Home = () => {
     <div className="home-container" id="Home">
       <div className="title-container">
         <h2 className="hackathon-title">
-          Hack <span>The</span> Future
+          Ctrl + <span>Alt</span> + Code
         </h2>
       </div>
       <div className="section">
@@ -76,18 +73,16 @@ const Home = () => {
             <div className="timer-item">
               <div className="timer-item-value">{timeLeft.seconds}</div>
               <div className="timer-item-label">Seconds</div>
-            </div>
+			</div>
           </div>
-          <div className="button">
-            <button
+	  <button
               type="button"
               className="btn btn-2 hover-slide-right register-btn"
             >
-              <a href="https://hackthefuture.devfolio.co/" target="_blank">
-                Register Now <FiArrowUpRight />
+              <a href="/" target="_blank">
+                Register Now 
               </a>
-            </button> 
-          </div>
+            </button>
         </div>
         <div className="right-section"> 
           <h1 className="greetings">
@@ -96,7 +91,7 @@ const Home = () => {
               <span className="span1">2</span>
               <span className="span2">0</span>
               <span className="span3">2</span>
-              <span className="span4">3</span>!
+              <span className="span4">4</span>!
             </span>
           </h1>
           <p className="home-text">
