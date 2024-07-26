@@ -30,7 +30,7 @@ const App = () => {
       {/* <Judges/> */}
       <Sponser />
       <Faq />
-      <Gallery />
+{/*       <Gallery /> */}
       <Footer />
       <TopButton />
     </div>
