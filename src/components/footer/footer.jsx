@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import hackathonLogo from "/images/hackathon-logo.png";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsBadge8K, BsFacebook, BsHammer, BsInstagram, BsMask } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 
 const footer = () => {
@@ -39,17 +39,17 @@ const footer = () => {
             <h3 className="footerTitle">Social Connection</h3>
             <ul className="socialLogo">
               <li>
-                <a href="/" target="_blank">
-                  <BsFacebook />
+                <a href="https://hemanthsbanur.vercel.app/" target="_blank">
+                  <BsHammer />
                 </a>
               </li>
               <li>
-                <a href="/" target="_blank">
+                <a href="https://www.linkedin.com/company/appex-pesu/about/" target="_blank">
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="instalogo">
-                <a href="/" target="_blank">
+                <a href="https://www.instagram.com/appex.pesu/" target="_blank">
                   <BsInstagram />
                 </a>
               </li>
