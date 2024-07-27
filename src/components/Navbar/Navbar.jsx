@@ -45,7 +45,7 @@ const Navbar = () => {
           <li className="borderXwidth">
             <a href="#Venue">Venue</a>
           </li>
-		  <li>
+		  <li className="borderXwidth">
             <a href="#Schedule">Timeline</a>
           </li>
           <li className="borderXwidth">
