@@ -21,6 +21,7 @@ const Venue = () => {
           <div className="venue-subheading-left">
             <p className="venue-date">30-31 August, 2024</p>
             <address className="venue-date">
+				PESU 52, 
               PES University , Bengaluru <br />
               Karnataka, India
             </address>
