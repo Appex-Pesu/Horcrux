@@ -79,7 +79,7 @@ const Home = () => {
               type="button"
               className="btn btn-2 hover-slide-right register-btn"
             >
-              <a href="/" target="_blank">
+              <a href="/register" target="_blank">
                 Register Now 
               </a>
             </button>
