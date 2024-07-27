@@ -4,6 +4,7 @@ import { FaStreetView } from "react-icons/fa6";
 
 const Venue = () => {
   return (
+	  <div className="final">
     <div className="venue-section" id="Venue">
       <div className="venue-head-section">
         <h1 className="heading-tag-line">Venue</h1>
@@ -21,8 +22,8 @@ const Venue = () => {
         </div>
         <div className="venue-subsection">
           <div className="venue-subheading-left">
-            <h4 className="venue-date">30-31 August, 2024</h4>
-            <address className="venue-address">
+            <p className="venue-date">30-31 August, 2024</p>
+            <address className="venue-date">
               PES University , Bengaluru <br />
               Karnataka, India
             </address>
@@ -32,14 +33,14 @@ const Venue = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <FaStreetView />
-                <h4>See Venue in 360&deg;</h4>
+                <FaStreetView/><p>See Venue in 360&deg;</p>
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
+	</div>
   );
 };
 

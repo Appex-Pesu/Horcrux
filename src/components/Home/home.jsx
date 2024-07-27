@@ -86,7 +86,6 @@ const Home = () => {
         </div>
         <div className="right-section"> 
           <h1 className="greetings">
-            Welcome to Hackathon&nbsp;
             <span className="year">
               <span className="span1">2</span>
               <span className="span2">0</span>
@@ -95,10 +94,12 @@ const Home = () => {
             </span>
           </h1>
           <p className="home-text">
-            "Unlock your potential, solve challenges, <br />
-            and leave your mark at our Hackathon event."
+            "Unleash Your Creativity, Conquer Challenges, and Make History at Our Epic Hackathon!"
           </p>
-          <h3 className="college-name">
+		  <p className="normal-text">
+			Step into a realm of limitless possibilities where your wildest dreams become reality. Join us for a colossal hackathon event designed to ignite your imagination and test your prowess like never before.
+			</p>
+          <h3 className="span3">
               <span>
                 <IoLocationSharp />
               </span>
