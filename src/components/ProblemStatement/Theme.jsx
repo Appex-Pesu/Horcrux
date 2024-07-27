@@ -35,7 +35,7 @@ const Theme = () => {
                 {card.backText.map((text, i) => (
                   <p key={i}>{text}</p>
                 ))}
-                <button className="button">Click Here</button>
+{/*                 <button className="button">Click Here</button> */}
               </div>
             </div>
           </a>
