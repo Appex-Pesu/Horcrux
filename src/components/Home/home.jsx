@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
-import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
@@ -79,9 +79,7 @@ const Home = () => {
               type="button"
               className="btn btn-2 hover-slide-right register-btn"
             >
-              <a href="/register" target="_blank">
-                Register Now 
-              </a>
+              <Link to="/register">Register now</Link>
             </button>
         </div>
         <div className="right-section"> 
