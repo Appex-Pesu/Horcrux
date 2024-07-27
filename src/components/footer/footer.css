@@ -1,3 +1,205 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap"); */
+
+/* .mainContainer { */
+/*   margin: 0; */
+/*   padding: 0; */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   background-size: cover; */
+/*   color: #fff; */
+/*   text-align: left; */
+/*   justify-content: left; */
+/*   width: 100%; */
+/*   font-family: Oswald, sans-serif; */
+/*   background: url(/images/footer-bg.jpg) bottom center no-repeat; */
+/*   bottom: 0; */
+/* } */
+
+/* .contentContainer { */
+/*   display: flex; */
+/*   position: relative; */
+/*   justify-content: center; */
+/*   background-color: #000000a0; */
+/*   padding-top: 33px; */
+/*   padding-bottom: 33px; */
+/*   text-align: center; */
+/* } */
+
+/* .logoContent { */
+/*   position: relative; */
+/*   width: 400px; */
+/* } */
+
+/* .logoContent img { */
+/*   width: 250px; */
+/*   position: relative; */
+/* } */
+
+/* .venueContent { */
+/*   position: relative; */
+/*   width: 400px; */
+/*   display: flex; */
+/*   flex-direction: column; */
+/* } */
+
+/* .footerTitle { */
+/*   line-height: 2.4000000000000004rem; */
+/*   text-transform: uppercase; */
+/*   /1* margin-bottom: 2.4rem; *1/ */
+/*   color: #fff; */
+/*   font-weight: 500; */
+/*   letter-spacing: 0.08rem; */
+/*   font-size: 1.2rem; */
+/*   margin-bottom: 0; */
+/* } */
+
+/* .socialContent { */
+/*   padding-top: 40px; */
+/*   position: relative; */
+/*   width: 400px; */
+/* } */
+
+/* .socialLogo { */
+/*   font-size: 26px; */
+/*   margin-left: 0; */
+/*   display: flex; */
+/*   list-style: none; */
+
+/*   padding-left: 0; */
+/* } */
+
+/* .socialLogo li { */
+/*   color: #363636; */
+/*   text-decoration: none; */
+/*   line-height: 3rem; */
+/*   padding-right: 10px; */
+/*   transition: 0.3s; */
+/* } */
+
+/* .socialLogo li:hover { */
+/*   color: #fff; */
+/* } */
+
+/* .socialLogo li a { */
+/*   font: inherit; */
+/*   color: inherit; */
+/*   -moz-transition-duration: 0.3s; */
+/*   -webkit-transition-duration: 0.3s; */
+/*   -o-transition-duration: 0.3s; */
+/*   transition-duration: 0.3s; */
+/* } */
+
+/* .socialLogo li a { */
+/*   color: inherit; */
+/*   background: #fff; */
+/*   padding: 0.75rem; */
+/*   border-radius: 50%; */
+/*   display: inline-flex; */
+/*   justify-items: center; */
+/*   -webkit-box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2); */
+/*   -moz-box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2); */
+/*   box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2); */
+/*   text-align: center; */
+/* } */
+
+/* .socialLogo:hover > li:hover a { */
+/*   background: #0000ff; */
+/* } */
+/* .socialLogo:hover > .instalogo:hover a { */
+/*   background-image: linear-gradient(#405de6,#833Ab4,#FD1D1d,#f77737,#fcaf45); */
+/* } */
+
+
+/* .socialLogo li a i { */
+/*   font-size: 24px; */
+/*   line-height: 45px; */
+/*   font-weight: 600; */
+/*   position: relative; */
+/*   text-align: center; */
+/* } */
+
+/* .copyContainer { */
+/*   border-top: 1px solid rgba(255, 255, 255, 0.1); */
+/*   background-color: #000000; */
+/*   text-align: center; */
+/* } */
+
+/* .copyContainer p { */
+/*   color: inherit; */
+/*   font-weight: 400; */
+/*   font-size: 13px; */
+/*   letter-spacing: 0.08rem; */
+/*   text-transform: uppercase; */
+/*   box-sizing: border-box; */
+/*   font-family: Oswald, sans-serif; */
+/*   color: rgba(255, 255, 255, 0.5); */
+/* } */
+
+/* .copyContainer p span { */
+/*   color: #efa506; */
+/* } */
+
+/* .mapContent iframe { */
+/*   width: 400px; */
+/*   height: 300px; */
+/*   border: 0; */
+/*   border-radius: 25px; */
+/*   padding-top: 10px; */
+/* } */
+
+/* @media (max-width: 480px) { */
+/*   .contentContainer { */
+/*     display: flex; */
+/*     flex-direction: column; */
+/*     text-align: center; */
+/*     justify-content: center; */
+/*     overflow: hidden; */
+/*     font-size: 50%; */
+/*   } */
+
+/*   .address, */
+/*   .location, */
+/*   .socialLogo { */
+/*     text-align: center; */
+/*     position: relative; */
+/*     justify-content: center; */
+/*   } */
+/* } */
+
+/* @media (max-width: 767px) { */
+/*   .contentContainer { */
+/*     display: flex; */
+/*     flex-direction: column; */
+/*     text-align: center; */
+/*     justify-content: center; */
+/*     overflow: hidden; */
+/*     font-size: 62%; */
+/*   } */
+
+/*   .socialContent, */
+/*   .logoContent, */
+/*   .venueContent { */
+/*     width: 100%; */
+/*   } */
+
+/*   .address, */
+/*   .location, */
+/*   .socialLogo { */
+/*     text-align: center; */
+/*     position: relative; */
+/*     justify-content: center; */
+/*   } */
+/* } */
+
+/* @media (max-width: 1199px) { */
+/*   .mainContainer { */
+/*     width: 100%; */
+/*     background-size: cover; */
+/*     background-repeat: no-repeat; */
+/*     background-size: 200vw; */
+/*   } */
+/* } */
+
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 .mainContainer {
@@ -7,8 +209,8 @@
   flex-direction: column;
   background-size: cover;
   color: #fff;
-  text-align: left;
-  justify-content: left;
+  text-align: center; /* Change to center the text */
+  justify-content: center; /* Change to center the content */
   width: 100%;
   font-family: Oswald, sans-serif;
   background: url(/images/footer-bg.jpg) bottom center no-repeat;
@@ -17,34 +219,19 @@
 
 .contentContainer {
   display: flex;
+  flex-direction: column; /* Change to column to center items vertically */
+  align-items: center; /* Center horizontally */
   position: relative;
-  justify-content: space-around;
+  justify-content: center; /* Center vertically */
   background-color: #000000a0;
   padding-top: 33px;
   padding-bottom: 33px;
-}
-
-.logoContent {
-  position: relative;
-  width: 400px;
-}
-
-.logoContent img {
-  width: 250px;
-  position: relative;
-}
-
-.venueContent {
-  position: relative;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 .footerTitle {
   line-height: 2.4000000000000004rem;
   text-transform: uppercase;
-  /* margin-bottom: 2.4rem; */
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.08rem;
@@ -52,68 +239,13 @@
   margin-bottom: 0;
 }
 
-.date {
-  color: #ffae00;
-  text-transform: uppercase;
-  font-weight: 400;
-  line-height: 2rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  word-spacing: 0.5;
-}
-
-.address {
-  color: rgb(255, 255, 255);
-  display: block;
-  margin-bottom: 20px;
-  font-style: normal;
-  line-height: 1.42857143;
-  display: flex;
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 2px;
-}
-
-.location {
-  /* display: flex; */
-  font-size: 1.5rem;
-  /* align-items: center; */
-}
-
-.location a {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  text-decoration: none;
-  color: #ffae00;
-}
-
-.location a h4 {
-  display: inline;
-  font-weight: 400;
-  transition: 0.3s;
-  font-size: 1.5rem;
-  color: #fff;
-  margin: 0;
-}
-
-.location:hover a h4 {
-  color: #ffae00;
-}
-
-.socialContent {
-  padding-top: 40px;
-  position: relative;
-  width: 400px;
-}
-
 .socialLogo {
   font-size: 26px;
   margin-left: 0;
   display: flex;
   list-style: none;
-
   padding-left: 0;
+  justify-content: center; /* Center the logos horizontally */
 }
 
 .socialLogo li {
@@ -131,42 +263,26 @@
 .socialLogo li a {
   font: inherit;
   color: inherit;
-  -moz-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
-}
-
-.socialLogo li a {
-  color: inherit;
   background: #fff;
   padding: 0.75rem;
   border-radius: 50%;
   display: inline-flex;
-  justify-items: center;
-  -webkit-box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2);
-  -moz-box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2);
+  justify-content: center;
   box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2);
+  text-align: center;
 }
 
 .socialLogo:hover > li:hover a {
   background: #0000ff;
 }
 .socialLogo:hover > .instalogo:hover a {
-  background-image: linear-gradient(#405de6,#833Ab4,#FD1D1d,#f77737,#fcaf45);
-}
-
-
-.socialLogo li a i {
-  font-size: 24px;
-  line-height: 45px;
-  font-weight: 600;
-  position: relative;
+  background-image: linear-gradient(#405de6, #833Ab4, #FD1D1d, #f77737, #fcaf45);
 }
 
 .copyContainer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: rgba(85, 75, 185, 0.95);
+  background-color: #000000;
   text-align: center;
 }
 
@@ -185,63 +301,21 @@
   color: #efa506;
 }
 
-.mapContent iframe {
-  width: 400px;
-  height: 300px;
-  border: 0;
-  border-radius: 25px;
-  padding-top: 10px;
-}
-
 @media (max-width: 480px) {
   .contentContainer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    overflow: hidden;
     font-size: 50%;
-  }
-
-  .address,
-  .location,
-  .socialLogo {
-    text-align: center;
-    position: relative;
-    justify-content: center;
   }
 }
 
 @media (max-width: 767px) {
   .contentContainer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    overflow: hidden;
     font-size: 62%;
-  }
-
-  .socialContent,
-  .logoContent,
-  .venueContent {
-    width: 100%;
-  }
-
-  .address,
-  .location,
-  .socialLogo {
-    text-align: center;
-    position: relative;
-    justify-content: center;
   }
 }
 
 @media (max-width: 1199px) {
   .mainContainer {
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-size: 200vw;
   }
 }
+
