@@ -22,17 +22,7 @@ const footer = () => {
           <address className="address">
             PES University <br />
             Bengaluru, India
-          </address>
-          <div className="location">
-            <a
-              href="https://maps.app.goo.gl/55EuXrLmb7cfy5az9?g_st=aw"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <IoLocationSharp />
-              <h4>View Map Location</h4>
-            </a>
-          </div>
+          </address> 
         </div>
         <div className="socialContent">
           <div className="contentText">
