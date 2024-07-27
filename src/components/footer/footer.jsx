@@ -10,20 +10,7 @@ const footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="mainContainer" id="Footer">
-      <div className="contentContainer">
-        <div className="logoContent">
-          <a href="/">
-            <img src={hackathonLogo} alt="HackerSpace" />
-          </a>
-        </div>
-        <div className="venueContent">
-          <h4 className="date">30-31 August, 2024</h4>
-          <h3 className="footerTitle">Venue Location </h3>
-          <address className="address">
-            PES University <br />
-            Bengaluru, India
-          </address> 
-        </div>
+      <div className="contentContainer">  
         <div className="socialContent">
           <div className="contentText">
             <h3 className="footerTitle">Social Connection</h3>

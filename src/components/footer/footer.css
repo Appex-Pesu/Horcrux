@@ -19,7 +19,7 @@
   display: flex;
   position: relative;
   justify-content: space-around;
-  background-color: rgba(85, 75, 185, 0.95);
+  background-color: #000000a0;
   padding-top: 33px;
   padding-bottom: 33px;
 }
