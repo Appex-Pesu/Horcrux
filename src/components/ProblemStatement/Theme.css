@@ -88,7 +88,7 @@
   font-weight: 600;
   color: #000000;
   overflow: hidden;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-serif , Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .front:before {

@@ -20,7 +20,7 @@ const Timeline = () => {
                 totam
               </p>
               {/* <a href="#">Read More &gt;</a> */}
-              <span className="Schedule_date">28 July 2023</span>
+              <span className="Schedule_date">30 August  2024</span>
               <span className="circle"></span>
             </li>
             <li>
@@ -32,7 +32,7 @@ const Timeline = () => {
                 totam
               </p>
               {/* <a href="#">Read More &gt;</a> */}
-              <span className="Schedule_date">29 July 2023</span>
+              <span className="Schedule_date">30 August 2024</span>
               <span className="circle"></span>
             </li>
             <li>
@@ -44,7 +44,7 @@ const Timeline = () => {
                 totam
               </p>
               {/* <a href="#">Read More &gt;</a> */}
-              <span className="Schedule_date">30 July 2023</span>
+              <span className="Schedule_date">31 August 2024</span>
               <span className="circle"></span>
             </li>
           </ul>
