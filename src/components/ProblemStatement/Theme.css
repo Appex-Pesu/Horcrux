@@ -84,9 +84,9 @@
 .front {
   background-size: cover;
   padding: 2rem;
-  font-size: 1.618rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: #fff;
+  color: rgb(233, 71, 8);
   overflow: hidden;
   font-family: Poppins, sans-serif;
 }
