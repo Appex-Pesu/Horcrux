@@ -58,8 +58,8 @@ const Register = () => {
       >
         <ArrowLeft size={24} />
       </button>
-      <h2>Ctrl+Alt+Code</h2>
-      <p>Register Here</p>
+      <h2 className='heading'>Ctrl+Alt+Code</h2>
+      <p>Register Your Team Here</p>
       <form onSubmit={handleSubmit}>
         <label>
           Team Name:

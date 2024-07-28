@@ -272,7 +272,10 @@ h3 {
   padding: 10px 20px;
   display: inline-block;
   text-align: center; 
-  text-decoration: none; 
+  text-decoration: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
   }
 
 .register-btn a {
@@ -289,6 +292,9 @@ h3 {
   display: inline-block;
   text-align: center; 
   text-decoration: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 
 }
 
