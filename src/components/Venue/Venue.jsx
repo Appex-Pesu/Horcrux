@@ -1,6 +1,5 @@
 import React from "react";
 import "./Venue.css";
-import { FaStreetView } from "react-icons/fa6";
 
 const Venue = () => {
   return (
@@ -24,16 +23,7 @@ const Venue = () => {
 				PESU 52, 
               PES University , Bengaluru <br />
               Karnataka, India
-            </address>
-            <div className="venue-location">
-              <a
-                href="https://maps.app.goo.gl/55EuXrLmb7cfy5az9?g_st=aw"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <FaStreetView/><p>See Venue in 360&deg;</p>
-              </a>
-            </div>
+            </address> 
           </div>
         </div>
       </div>
