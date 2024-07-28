@@ -27,7 +27,7 @@
   /* top: -10%; */
 }
 
-/* .hackathon-title {
+.hackathon-title {
   font-size: 4rem;
   color: #fff;
   font-weight: bold;
@@ -41,7 +41,7 @@
   font-family: "Londrina Outline", cursive;
   text-shadow: 0 0 5px #CC00FF, 0 0 10px #CC00FF, 0 0 15px #CC00FF,
     0 0 20px #CC00FF, 0 0 25px #CC00FF, 0 0 30px #CC00FF;
-} */
+}
 
 @keyframes fadeInAndOut {
   0%, 100% {
@@ -65,22 +65,22 @@
   }
 }
 
-.hackathon-title {
-  font-size: 4rem;
-  color: #fff;
-  font-weight: bold;
-  margin-top: 0;
-  font-family: "Oswald", sans-serif;
-  text-align: center;
-  animation: fadeInAndOut 4s infinite;
-}
+/* .hackathon-title { */
+/*   font-size: 4rem; */
+/*   color: #fff; */
+/*   font-weight: bold; */
+/*   margin-top: 0; */
+/*   font-family: "Oswald", sans-serif; */
+/*   text-align: center; */
+/*   animation: fadeInAndOut 4s infinite; */
+/* } */
 
-.hackathon-title span {
-  font-size: 4rem;
-  font-family: "Londrina Outline", cursive;
-  color: #CC00FF;
-  animation: textGlow 2s infinite;
-}
+/* .hackathon-title span { */
+/*   font-size: 4rem; */
+/*   font-family: "Londrina Outline", cursive; */
+/*   color: #CC00FF; */
+/*   animation: textGlow 2s infinite; */
+/* } */
 
 
 .section {
