@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import hackathonLogo from "/images/hackathon-logo.png";
+import hackathonLogo from "/images/logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
