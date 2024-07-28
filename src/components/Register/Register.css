@@ -3,9 +3,10 @@
   max-width: 600px;
   margin: 20px auto;
   padding: 40px 20px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 
 .contact-container h2 {
@@ -16,7 +17,7 @@
 .contact-container p {
   text-align: center;
   margin-bottom: 20px;
-  color: #666;
+  color: #cccccc;
 }
 
 .contact-container form {
@@ -34,8 +35,10 @@
   width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #444444;
   border-radius: 4px;
+  background-color: #333333;
+  color: #ffffff;
 }
 
 .contact-container button[type="submit"] {
@@ -64,8 +67,9 @@
   padding: 8px;
   border-radius: 50%;
   transition: background-color 0.3s;
+  color: #ffffff;
 }
 
 .back-button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
