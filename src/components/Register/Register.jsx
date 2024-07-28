@@ -2,18 +2,6 @@ import React, { useState } from 'react';
 import './Register.css';
 
 const Register = () => {
-  const [formData, setFormData] = useState({
-    teamName: '',
-    srn: '',
-    names: '',
-    email: '',
-    sem: '',
-    github: '',
-    track: '',
-    problemStatement: '',
-    description: ''
-  });
-
   const tracks = [
     'Track 1',
     'Track 2',
@@ -23,31 +11,15 @@ const Register = () => {
     'Track 6'
   ];
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log(formData);
-  };
-
   return (
     <div className="contact-container">
       <h2>Team Registration Form</h2>
-      <form onSubmit={handleSubmit} action='https://docs.google.com/forms/d/e/1FAIpQLSfS_h1UJ4aocHxiMjlmY6wmT5O1O0ms8hH0rs3iX7ko-i4XMg/formResponse'>
+      <form method='POST' action='https://docs.google.com/forms/d/e/1FAIpQLSfS_h1UJ4aocHxiMjlmY6wmT5O1O0ms8hH0rs3iX7ko-i4XMg/formResponse'>
         <label>
           Team Name:
           <input
             type="text"
-            name="Team Name"
-            value={formData.teamName}
-            onChange={handleChange}
+            name="entry.1907539909"
             required
           />
         </label>
@@ -56,9 +28,7 @@ const Register = () => {
           Member 1 Name, Sem, Srn, Email:
           <input
             type="text"
-            name="Member 1"
-            value={formData.srn}
-            onChange={handleChange}
+            name="entry.350592232"
             required
           />
         </label>
@@ -67,10 +37,8 @@ const Register = () => {
           Member 1 Name, Sem, Srn, Email:
           <input
             type="text"
-            name="Member 2"
-            value={formData.srn}
-            onChange={handleChange}
-            required
+            name="entry.700166675"
+			required
           />
         </label>
 
@@ -78,9 +46,7 @@ const Register = () => {
           Member 1 Name, Sem, Srn, Email:
           <input
             type="text"
-            name="Member 3"
-            value={formData.names}
-            onChange={handleChange}
+            name="entry.548548196"
             required
           />
         </label>
@@ -88,52 +54,23 @@ const Register = () => {
           Member 1 Name, Sem, Srn, Email:
           <input
             type="text"
-            name="Member 4"
-            value={formData.names}
-            onChange={handleChange}
+            name="entry.837670875"
             required
           />
         </label>
-
         <label>
-          Email of each:
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </label>
-
-        <label>
-          Sem of each:
+          GitHub of Leader:
           <input
             type="text"
-            name="sem"
-            value={formData.sem}
-            onChange={handleChange}
+            name="entry.1126140029"
             required
           />
         </label>
 
-        <label>
-          GitHub of each:
-          <input
-            type="text"
-            name="github"
-            value={formData.github}
-            onChange={handleChange}
-            required
-          />
-        </label>
-
-        <label>
+        /*<label>
           Track:
           <select
-            name="track"
-            value={formData.track}
-            onChange={handleChange}
+            name="entry.1037587301"
             required
           >
             <option value="">Select a track</option>
@@ -143,30 +80,32 @@ const Register = () => {
               </option>
             ))}
           </select>
-        </label>
+        </label>*/
 
+		<label>
+          Track:
+          <input
+            type="text"
+            name="entry.1037587301"
+            required
+          />
+        </label>
         <label>
           Problem Statement:
           <input
             type="text"
-            name="problemStatement"
-            value={formData.problemStatement}
-            onChange={handleChange}
+            name="entry.653675328"
             required
           />
         </label>
-
-        <label>
-          Description (within 200 words) + Tech Stack:
-          <textarea
-            name="description"
-            value={formData.description}
-            onChange={handleChange}
-            maxLength="200"
+		<label>
+          Approach for the solution and Tech Stack:
+          <input
+            type="text"
+            name="entry.1140061896"
             required
           />
         </label>
-
         <button type="submit">Submit</button>
       </form>
     </div>
