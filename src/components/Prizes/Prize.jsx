@@ -15,7 +15,6 @@ const Prize = () => {
             <div className="prize-content">
               <h2 className="heading">{card.heading}</h2>
               <p className="data-content">{card.content}</p>
-              {/* <button className="prize-button">Click Here</button> */}
             </div>
           </div>
         ))}

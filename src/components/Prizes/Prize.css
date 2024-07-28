@@ -11,6 +11,7 @@
   padding-bottom: 4rem;
 }
 .dd_heading {
+  color: blue;
   text-align: center;
   font-family: roboto thin;
   font-family: Oswald, sans-serif;
@@ -165,14 +166,14 @@
 .heading {
   font-size: 1.3rem;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 4;
   color: black;
 }
 
 .data-content {
   font-family: var(--font-serif);
-  color: rgb(231, 173, 15);
-  font-size: 4rem;
+  color: #000000;
+  font-size: 3rem;
   font-style: italic;
   line-height: 1.35;
 }
@@ -254,29 +255,10 @@
 .d_card:nth-child(3):before {
   background-image: url("images/Bronze.png");
 }
-/*
-.d_card:nth-child(4):before {
-  background-image: url(https://images.unsplash.com/photo-1580986475035-f0778c60f5ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc5NjV9&auto=format&fit=crop&w=633&q=80);
-}
-
-.d_card:nth-child(5):before {
-  background-image: url(https://images.unsplash.com/photo-1580986475035-f0778c60f5ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc5NjV9&auto=format&fit=crop&w=633&q=80);
-}
-
-.d_card:nth-child(6):before {
-  background-image: url(https://images.unsplash.com/photo-1580986475035-f0778c60f5ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc5NjV9&auto=format&fit=crop&w=633&q=80);
-}
-
-.d_card:nth-child(7):before {
-  background-image: url(https://images.unsplash.com/photo-1580986475035-f0778c60f5ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc5NjV9&auto=format&fit=crop&w=633&q=80);
-}
-
-.d_card:nth-child(8):before {
-  background-image: url(https://images.unsplash.com/photo-1580986475035-f0778c60f5ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc5NjV9&auto=format&fit=crop&w=633&q=80);
-} */
 
 .text-center {
   font-size: 4.2rem;
+  color: black;
 }
 
 .prize-button {
@@ -285,7 +267,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   font-weight: bold;
-  color: #fff;
+  color: #1a57e6;
   padding: 0.5em 1em;
   border-radius: 100px;
   font: inherit;
@@ -293,7 +275,7 @@
   position: relative;
   transform-style: preserve-3d;
   transition: 300ms ease;
-  background: linear-gradient(135deg, #1a9be6, #1a57e6);
+  background: linear-gradient(135deg, #ffffff, #ffffff);
 }
 
 .prize-button:before {
@@ -330,9 +312,16 @@
 .heading:after {
   display: block;
   content: "";
+  color: black;
   position: absolute;
   width: 160px !important;
   height: 4px;
   background: linear-gradient(135deg, #1a9be6, #1a57e6);
   bottom: 0;
 }
+
+.headmain {
+	color: black;
+}
+
+
