@@ -86,9 +86,9 @@
   padding: 2rem;
   font-size: 2rem;
   font-weight: 600;
-  color: rgb(233, 71, 8);
+  color: rgb(0, 0, 0);
   overflow: hidden;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-serif , Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .front:before {
