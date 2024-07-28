@@ -1,8 +1,8 @@
 :root {
-  --background: #f2f5f7;
-  --text-primary: #2f4770;
-  --text-secondary: #647780;
-  --white: #fff;
+  --background: #000000;
+  --text-primary: #ffffff;
+  --text-secondary: #ffffff;
+  --white: #000000;
 }
 
 .faq__container {
