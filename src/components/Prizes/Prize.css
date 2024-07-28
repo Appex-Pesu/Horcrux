@@ -245,15 +245,15 @@
 }
 
 .d_card:nth-child(1):before {
-  background-image: url("images/Gold1.png");
+  background-image: url("/images/Gold1.png");
 }
 
 .d_card:nth-child(2):before {
-  background-image: url("images/Silver.png");
+  background-image: url("/images/Silver.png");
 }
 
 .d_card:nth-child(3):before {
-  background-image: url("images/Bronze.png");
+  background-image: url("/images/Bronze.png");
 }
 
 .text-center {
