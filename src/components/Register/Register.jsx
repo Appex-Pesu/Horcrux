@@ -5,9 +5,9 @@ const Register = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const tracks = [
     'Generative AI and Machine Learning',
-    'Web3 and CyberSecurity',
+    'Blockchain / Crypto',
     'Web / App Development',
-    'EdTech',
+    'Cybersecurity',
     'AR / VR',
     'Open Innovation'
   ];
@@ -22,7 +22,7 @@ const Register = () => {
         {
           method: 'POST',
           body: formData,
-          mode: 'no-cors' // This is necessary for submitting to Google Forms
+          mode: 'no-cors'
         }
       );
       
@@ -44,7 +44,8 @@ const Register = () => {
 
   return (
     <div className="contact-container">
-      <h2>Team Registration Form</h2>
+      <h2>Ctrl+Alt+Code</h2>
+	  <p>Register Here</p>
       <form onSubmit={handleSubmit}>
         <label>
           Team Name:
@@ -70,6 +71,10 @@ const Register = () => {
           GitHub of Leader:
           <input type="text" name="entry.1126140029" required />
         </label>
+		<label>
+		  Phone number of Leader:
+		  <input type="text" name="entry.451885995" required />
+		</label>
         <label>
           Track:
           <select name="entry.1037587301" required>
