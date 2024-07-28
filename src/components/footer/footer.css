@@ -1,207 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap"); */
-
-/* .mainContainer { */
-/*   margin: 0; */
-/*   padding: 0; */
-/*   display: flex; */
-/*   flex-direction: column; */
-/*   background-size: cover; */
-/*   color: #fff; */
-/*   text-align: left; */
-/*   justify-content: left; */
-/*   width: 100%; */
-/*   font-family: Oswald, sans-serif; */
-/*   background: url(/images/footer-bg.jpg) bottom center no-repeat; */
-/*   bottom: 0; */
-/* } */
-
-/* .contentContainer { */
-/*   display: flex; */
-/*   position: relative; */
-/*   justify-content: center; */
-/*   background-color: #000000a0; */
-/*   padding-top: 33px; */
-/*   padding-bottom: 33px; */
-/*   text-align: center; */
-/* } */
-
-/* .logoContent { */
-/*   position: relative; */
-/*   width: 400px; */
-/* } */
-
-/* .logoContent img { */
-/*   width: 250px; */
-/*   position: relative; */
-/* } */
-
-/* .venueContent { */
-/*   position: relative; */
-/*   width: 400px; */
-/*   display: flex; */
-/*   flex-direction: column; */
-/* } */
-
-/* .footerTitle { */
-/*   line-height: 2.4000000000000004rem; */
-/*   text-transform: uppercase; */
-/*   /1* margin-bottom: 2.4rem; *1/ */
-/*   color: #fff; */
-/*   font-weight: 500; */
-/*   letter-spacing: 0.08rem; */
-/*   font-size: 1.2rem; */
-/*   margin-bottom: 0; */
-/* } */
-
-/* .socialContent { */
-/*   padding-top: 40px; */
-/*   position: relative; */
-/*   width: 400px; */
-/* } */
-
-/* .socialLogo { */
-/*   font-size: 26px; */
-/*   margin-left: 0; */
-/*   display: flex; */
-/*   list-style: none; */
-
-/*   padding-left: 0; */
-/* } */
-
-/* .socialLogo li { */
-/*   color: #363636; */
-/*   text-decoration: none; */
-/*   line-height: 3rem; */
-/*   padding-right: 10px; */
-/*   transition: 0.3s; */
-/* } */
-
-/* .socialLogo li:hover { */
-/*   color: #fff; */
-/* } */
-
-/* .socialLogo li a { */
-/*   font: inherit; */
-/*   color: inherit; */
-/*   -moz-transition-duration: 0.3s; */
-/*   -webkit-transition-duration: 0.3s; */
-/*   -o-transition-duration: 0.3s; */
-/*   transition-duration: 0.3s; */
-/* } */
-
-/* .socialLogo li a { */
-/*   color: inherit; */
-/*   background: #fff; */
-/*   padding: 0.75rem; */
-/*   border-radius: 50%; */
-/*   display: inline-flex; */
-/*   justify-items: center; */
-/*   -webkit-box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2); */
-/*   -moz-box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2); */
-/*   box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2); */
-/*   text-align: center; */
-/* } */
-
-/* .socialLogo:hover > li:hover a { */
-/*   background: #0000ff; */
-/* } */
-/* .socialLogo:hover > .instalogo:hover a { */
-/*   background-image: linear-gradient(#405de6,#833Ab4,#FD1D1d,#f77737,#fcaf45); */
-/* } */
-
-
-/* .socialLogo li a i { */
-/*   font-size: 24px; */
-/*   line-height: 45px; */
-/*   font-weight: 600; */
-/*   position: relative; */
-/*   text-align: center; */
-/* } */
-
-/* .copyContainer { */
-/*   border-top: 1px solid rgba(255, 255, 255, 0.1); */
-/*   background-color: #000000; */
-/*   text-align: center; */
-/* } */
-
-/* .copyContainer p { */
-/*   color: inherit; */
-/*   font-weight: 400; */
-/*   font-size: 13px; */
-/*   letter-spacing: 0.08rem; */
-/*   text-transform: uppercase; */
-/*   box-sizing: border-box; */
-/*   font-family: Oswald, sans-serif; */
-/*   color: rgba(255, 255, 255, 0.5); */
-/* } */
-
-/* .copyContainer p span { */
-/*   color: #efa506; */
-/* } */
-
-/* .mapContent iframe { */
-/*   width: 400px; */
-/*   height: 300px; */
-/*   border: 0; */
-/*   border-radius: 25px; */
-/*   padding-top: 10px; */
-/* } */
-
-/* @media (max-width: 480px) { */
-/*   .contentContainer { */
-/*     display: flex; */
-/*     flex-direction: column; */
-/*     text-align: center; */
-/*     justify-content: center; */
-/*     overflow: hidden; */
-/*     font-size: 50%; */
-/*   } */
-
-/*   .address, */
-/*   .location, */
-/*   .socialLogo { */
-/*     text-align: center; */
-/*     position: relative; */
-/*     justify-content: center; */
-/*   } */
-/* } */
-
-/* @media (max-width: 767px) { */
-/*   .contentContainer { */
-/*     display: flex; */
-/*     flex-direction: column; */
-/*     text-align: center; */
-/*     justify-content: center; */
-/*     overflow: hidden; */
-/*     font-size: 62%; */
-/*   } */
-
-/*   .socialContent, */
-/*   .logoContent, */
-/*   .venueContent { */
-/*     width: 100%; */
-/*   } */
-
-/*   .address, */
-/*   .location, */
-/*   .socialLogo { */
-/*     text-align: center; */
-/*     position: relative; */
-/*     justify-content: center; */
-/*   } */
-/* } */
-
-/* @media (max-width: 1199px) { */
-/*   .mainContainer { */
-/*     width: 100%; */
-/*     background-size: cover; */
-/*     background-repeat: no-repeat; */
-/*     background-size: 200vw; */
-/*   } */
-/* } */
-
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-
 .mainContainer {
   margin: 0;
   padding: 0;
@@ -209,74 +5,86 @@
   flex-direction: column;
   background-size: cover;
   color: #fff;
-  text-align: center; /* Change to center the text */
-  justify-content: center; /* Change to center the content */
   width: 100%;
-  font-family: Oswald, sans-serif;
   background: url(/images/footer-bg.jpg) bottom center no-repeat;
   bottom: 0;
 }
 
 .contentContainer {
   display: flex;
-  flex-direction: column; /* Change to column to center items vertically */
-  align-items: center; /* Center horizontally */
-  position: relative;
-  justify-content: center; /* Center vertically */
-  background-color: #000000a0;
-  padding-top: 33px;
-  padding-bottom: 33px;
-  text-align: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+}
+
+.footerSection {
+  flex: 1;
+}
+
+.contactSection {
+  text-align: left;
+}
+
+.socialSection {
+  text-align: right;
 }
 
 .footerTitle {
-  line-height: 2.4000000000000004rem;
+  line-height: 2.4rem;
   text-transform: uppercase;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.08rem;
-  font-size: 1.2rem;
-  margin-bottom: 0;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.contactList li {
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .socialLogo {
-  font-size: 26px;
-  margin-left: 0;
   display: flex;
   list-style: none;
-  padding-left: 0;
-  justify-content: center; /* Center the logos horizontally */
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
 }
 
 .socialLogo li {
-  color: #363636;
-  text-decoration: none;
-  line-height: 3rem;
-  padding-right: 10px;
-  transition: 0.3s;
-}
-
-.socialLogo li:hover {
-  color: #fff;
+  margin-left: 10px;
 }
 
 .socialLogo li a {
-  font: inherit;
-  color: inherit;
-  transition-duration: 0.3s;
-  background: #fff;
-  padding: 0.75rem;
+  color: #fff;
+  font-size: 1rem;
+  transition: 0.3s;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem;
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
-  box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2);
-  text-align: center;
+  align-items: center;
 }
 
-.socialLogo:hover > li:hover a {
+.socialLogo .linkedin a:hover {
   background: #0000ff;
 }
-.socialLogo:hover > .instalogo:hover a {
+
+.socialLogo .github a:hover {
+	background: #000000;
+}
+
+.socialLogo .instalogo a:hover {
   background-image: linear-gradient(#405de6, #833Ab4, #FD1D1d, #f77737, #fcaf45);
 }
 
@@ -284,38 +92,39 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   background-color: #000000;
   text-align: center;
+  padding: 10px 0;
 }
 
 .copyContainer p {
-  color: inherit;
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
   font-size: 13px;
   letter-spacing: 0.08rem;
   text-transform: uppercase;
-  box-sizing: border-box;
-  font-family: Oswald, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
 }
 
 .copyContainer p span {
   color: #efa506;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .contentContainer {
-    font-size: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .socialSection {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .socialLogo {
+    justify-content: flex-start;
+  }
+
+  .socialLogo li {
+    margin-left: 0;
+    margin-right: 10px;
   }
 }
-
-@media (max-width: 767px) {
-  .contentContainer {
-    font-size: 62%;
-  }
-}
-
-@media (max-width: 1199px) {
-  .mainContainer {
-    background-size: 200vw;
-  }
-}
-
