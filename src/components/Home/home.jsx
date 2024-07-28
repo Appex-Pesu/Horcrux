@@ -94,7 +94,7 @@ const Home = () => {
           <p className="home-text">
             "Unleash Your Creativity, Conquer Challenges, and Make History at Our Epic Hackathon!"
           </p>
-		  <p className="normal-text">
+		  <p className="home-text">
 			Step into a realm of limitless possibilities where your wildest dreams become reality. Join us for a colossal hackathon event designed to ignite your imagination and test your prowess like never before.
 			</p>
           <h3 className="span3">
