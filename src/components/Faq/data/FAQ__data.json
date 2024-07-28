@@ -1,31 +1,31 @@
 [
   {
-    "question": "How to register for IncuBateX?",
-    "answer": "You can register to IncuBateX by clicking on the register button and by filling the form"
+    "question": "How to register for IncubateX?",
+    "answer": "You can register for IncubateX by clicking on the register button and then filling the form"
   },
   {
-    "question": "Who should participate in IncuBateX?",
-    "answer": "You guys just have to bring your laptop, chargers and any other coding equipment which you find easy to code with and if your building any hardware project so all the components that you may need."
+    "question": "Who should participate in IncubateX?",
+    "answer": "Students from 1st to 3rd Year can participate in this 24 Hr hackathon. Do note that you have to bring your own equipment such as Laptops and other hardware(if necessary)."
   },
   {
     "question": "Can I work on a project I've already started or do I need to create something entirely new?",
-    "answer": "You have to build a new project from scratch. You have to initialise your git repo in hackathon itself."
+    "answer": "You have to build a new project from scratch. You have to initialise your new github repo in the hackathon itself."
   },
   {
-    "question": "What is the registration fee for IncuBateX?",
-    "answer": "The registration fee is 300/-"
+    "question": "What is the registration fee for IncubateX?",
+    "answer": "The registration fee is 400/-. Note that we will be asking this fee only if you have been shortlisted for the Hackathon."
   },
   {
-    "question": "What is the last date of registration for IncuBateX?",
+    "question": "What is the last date of registration for IncubateX?",
     "answer": "The last date of registration is TBD"
   },
   {
-    "question": "Not able to  register to the event due to error?",
-    "answer": "If you are not able to register please clear the web cache and if you are still not able please contact Appex Head Contact : 9999999999. "
+    "question": "Not able to register to the event due to some technical errors?",
+    "answer": "Please clear the web cache from your browser settins and if you are still not able to register,please contact Appex Head : 9999999999. "
   },
   {
     "question": "What should be the size of my team?",
-    "answer":"The team size can be maximum of 4 ."
+    "answer":"The team size can be of 3-4 people."
   }
 
 ]
