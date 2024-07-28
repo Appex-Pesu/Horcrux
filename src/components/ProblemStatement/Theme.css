@@ -86,7 +86,7 @@
   padding: 2rem;
   font-size: 2rem;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: #000000;
   overflow: hidden;
   font-family: Poppins, sans-serif , Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -99,9 +99,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #1a9be6, #1a57e6);
-  opacity: 0.25;
-  z-index: -1;
+  background: linear-gradient(135deg, #1a9be6, #ffff00);
+  opacity: 0.45;
+  z-index: -1; 
 }
 
 .card:hover .front {
@@ -194,4 +194,11 @@
 .button:active:before {
   transform: translateZ(-20px);
   top: 12px;
+}
+
+.heading-middle {
+  color: white;
+  font-family: "Londrina Outline", cursive;
+  text-shadow: 0 0 5px #CC00FF, 0 0 10px #CC00FF, 0 0 15px #CC00FF,
+    0 0 20px #CC00FF, 0 0 25px #CC00FF, 0 0 30px #CC00FF;
 }
