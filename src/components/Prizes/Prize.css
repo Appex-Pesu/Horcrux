@@ -171,9 +171,9 @@
 
 .data-content {
   font-family: var(--font-serif);
-  color: rgb(231, 173, 15);
+  color: rgb(231, 15, 15);
   font-size: 4rem;
-  font-style: italic;
+  font-style: Arial;
   line-height: 1.35;
 }
 
