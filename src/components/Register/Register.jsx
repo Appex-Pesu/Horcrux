@@ -2,140 +2,77 @@ import React, { useState } from 'react';
 import './Register.css';
 
 const Register = () => {
-  const [formData, setFormData] = useState({
-    teamName: '',
-    srn: '',
-    names: '',
-    email: '',
-    sem: '',
-    github: '',
-    track: '',
-    problemStatement: '',
-    description: ''
-  });
-
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const tracks = [
-    'Track 1',
-    'Track 2',
-    'Track 3',
-    'Track 4',
-    'Track 5',
-    'Track 6'
+    'Generative AI and Machine Learning',
+    'Web3 and CyberSecurity',
+    'Web / App Development',
+    'EdTech',
+    'AR / VR',
+    'Open Innovation'
   ];
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    
+    try {
+      const response = await fetch(
+        'https://docs.google.com/forms/d/e/1FAIpQLSfS_h1UJ4aocHxiMjlmY6wmT5O1O0ms8hH0rs3iX7ko-i4XMg/formResponse',
+        {
+          method: 'POST',
+          body: formData,
+          mode: 'no-cors' // This is necessary for submitting to Google Forms
+        }
+      );
+      
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('An error occurred. Please try again.');
+    }
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log(formData);
-  };
+  if (isSubmitted) {
+    return (
+      <div className="contact-container">
+        <h2>Registration Successful!</h2>
+        <p>Thank you for registering. We'll be in touch soon.</p>
+      </div>
+    );
+  }
 
   return (
     <div className="contact-container">
       <h2>Team Registration Form</h2>
-      <form onSubmit={handleSubmit} action='https://docs.google.com/forms/d/e/1FAIpQLSfS_h1UJ4aocHxiMjlmY6wmT5O1O0ms8hH0rs3iX7ko-i4XMg/formResponse'>
+      <form onSubmit={handleSubmit}>
         <label>
           Team Name:
-          <input
-            type="text"
-            name="Team Name"
-            value={formData.teamName}
-            onChange={handleChange}
-            required
-          />
+          <input type="text" name="entry.1907539909" required />
         </label>
-
         <label>
           Member 1 Name, Sem, Srn, Email:
-          <input
-            type="text"
-            name="Member 1"
-            value={formData.srn}
-            onChange={handleChange}
-            required
-          />
+          <input type="text" name="entry.350592232" required />
         </label>
-
-		<label>
-          Member 1 Name, Sem, Srn, Email:
-          <input
-            type="text"
-            name="Member 2"
-            value={formData.srn}
-            onChange={handleChange}
-            required
-          />
-        </label>
-
         <label>
-          Member 1 Name, Sem, Srn, Email:
-          <input
-            type="text"
-            name="Member 3"
-            value={formData.names}
-            onChange={handleChange}
-            required
-          />
+          Member 2 Name, Sem, Srn, Email:
+          <input type="text" name="entry.700166675" required />
         </label>
-		<label>
-          Member 1 Name, Sem, Srn, Email:
-          <input
-            type="text"
-            name="Member 4"
-            value={formData.names}
-            onChange={handleChange}
-            required
-          />
-        </label>
-
         <label>
-          Email of each:
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
+          Member 3 Name, Sem, Srn, Email:
+          <input type="text" name="entry.548548196" required />
         </label>
-
         <label>
-          Sem of each:
-          <input
-            type="text"
-            name="sem"
-            value={formData.sem}
-            onChange={handleChange}
-            required
-          />
+          Member 4 Name, Sem, Srn, Email:
+          <input type="text" name="entry.837670875" />
         </label>
-
         <label>
-          GitHub of each:
-          <input
-            type="text"
-            name="github"
-            value={formData.github}
-            onChange={handleChange}
-            required
-          />
+          GitHub of Leader:
+          <input type="text" name="entry.1126140029" required />
         </label>
-
         <label>
           Track:
-          <select
-            name="track"
-            value={formData.track}
-            onChange={handleChange}
-            required
-          >
+          <select name="entry.1037587301" required>
             <option value="">Select a track</option>
             {tracks.map((track, index) => (
               <option key={index} value={track}>
@@ -144,29 +81,14 @@ const Register = () => {
             ))}
           </select>
         </label>
-
         <label>
           Problem Statement:
-          <input
-            type="text"
-            name="problemStatement"
-            value={formData.problemStatement}
-            onChange={handleChange}
-            required
-          />
+          <input type="text" name="entry.653675328" required />
         </label>
-
         <label>
-          Description (within 200 words) + Tech Stack:
-          <textarea
-            name="description"
-            value={formData.description}
-            onChange={handleChange}
-            maxLength="200"
-            required
-          />
+          Approach for the solution and Tech Stack:
+          <input type="text" name="entry.1140061896" required />
         </label>
-
         <button type="submit">Submit</button>
       </form>
     </div>
@@ -174,4 +96,3 @@ const Register = () => {
 };
 
 export default Register;
-
