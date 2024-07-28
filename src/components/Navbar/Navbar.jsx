@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import hackathonLogo from "/images/hackathon-logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -49,7 +50,7 @@ const Navbar = () => {
             <a href="#Schedule">Timeline</a>
           </li>
           <li className="borderXwidth">
-            <a href="#Footer">Contact</a>
+			<Link to="/register">Register</Link>
           </li>
         </ul>
       </div>
