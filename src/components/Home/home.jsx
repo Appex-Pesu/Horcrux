@@ -92,11 +92,11 @@ const Home = () => {
             </span>
           </h1>
           <p className="home-text">
-            "Unleash Your Creativity, Conquer Challenges, and Make History at Our Epic Hackathon!"
-          </p>
-		  <p className="home-text">
+            "Unleash Your Creativity, Conquer Challenges, and Make History at Our Epic Hackathon!"<br/>
+		<span className="normal-text">
 			Step into a realm of limitless possibilities where your wildest dreams become reality. Join us for a colossal hackathon event designed to ignite your imagination and test your prowess like never before.
-			</p>
+			</span>
+          </p>
           <h3 className="span3">
               <span>
                 <IoLocationSharp />
