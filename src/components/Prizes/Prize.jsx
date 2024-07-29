@@ -13,7 +13,7 @@ const Prize = () => {
         {cardData.map((card, index) => (
           <div className="d_card" key={index}>
             <div className="prize-content">
-              <h2 className="heading">{card.heading}</h2>
+              <h2 className="heading"><span className="color-head">{card.heading}</span></h2>
               <p className="data-content">{card.content}</p>
             </div>
           </div>
