@@ -44,6 +44,12 @@ const Register = () => {
   if (isSubmitted) {
     return (
       <div className="contact-container">
+	  <button 
+        onClick={handleBack}
+        className="back-button"
+      >
+        <ArrowLeft size={24} />
+      </button>
         <h2>Registration Successful!</h2>
         <p>Thank you for registering. We&apos;ll be in touch soon.</p>
       </div>
