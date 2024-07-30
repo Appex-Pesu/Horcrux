@@ -68,19 +68,19 @@ const Register = () => {
       <p>Register Your Team Here</p>
       <form onSubmit={handleSubmit}>
         <label>
-          Team Name:
+          Team Name:<span className='star'>*</span>
           <input type="text" name="entry.1907539909" placeholder='Team name' required />
         </label>
         <label>
-          Member 1 Name, Sem, Srn, Email:
+          Member 1 Name, Sem, Srn, Email:<span className='star'>*</span>
           <input type="text" name="entry.350592232" placeholder='name, sem, srn, email' required />
         </label>
         <label>
-          Member 2 Name, Sem, Srn, Email:
+          Member 2 Name, Sem, Srn, Email:<span className='star'>*</span>
           <input type="text" name="entry.700166675" placeholder='name, sem, srn, email' required />
         </label>
         <label>
-          Member 3 Name, Sem, Srn, Email:
+          Member 3 Name, Sem, Srn, Email:<span className='star'>*</span>
           <input type="text" name="entry.548548196" placeholder='name, sem, srn, email' required />
         </label>
         <label>
@@ -88,15 +88,15 @@ const Register = () => {
           <input type="text" name="entry.837670875" placeholder='name, sem, srn, email' />
         </label>
         <label>
-          GitHub of Leader:
+          GitHub of Leader:<span className='star'>*</span>
           <input type="text" name="entry.1126140029" placeholder='complete github url' required />
         </label>
         <label>
-          Phone number of Leader:
+          Phone number of Leader:<span className='star'>*</span>
           <input type="text" name="entry.451885995" placeholder='phone number' required />
         </label>
         <label>
-          Track:
+          Track:<span className='star'>*</span>
           <select name="entry.1037587301" required>
             <option value="">Select a track</option>
             {tracks.map((track, index) => (
@@ -107,12 +107,12 @@ const Register = () => {
           </select>
         </label>
         <label>
-          Problem Statement:
+          Problem Statement:<span className='star'>*</span>
           <input type="text" name="entry.653675328" placeholder='problem Statement' required />
         </label>
         <label>
-          Approach for the solution and Tech Stack:
-          <input type="text" name="entry.1140061896" placeholder='must be within 500 words' required />
+          Approach for the solution and Tech Stack:<span className='star'>*</span>
+          <textarea name="entry.1140061896" placeholder='must be within 500 words' required rows={3}/>
         </label>
         <button type="submit">Submit</button>
       </form>

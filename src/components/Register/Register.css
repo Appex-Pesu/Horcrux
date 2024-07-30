@@ -110,3 +110,8 @@
   text-shadow: 0 0 5px #CC00FF, 0 0 10px #CC00FF, 0 0 15px #CC00FF,
     0 0 20px #CC00FF, 0 0 25px #CC00FF, 0 0 30px #CC00FF;
 }
+
+.star{
+	color: red;
+}
+
