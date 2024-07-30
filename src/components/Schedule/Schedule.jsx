@@ -14,10 +14,7 @@ const Timeline = () => {
             <li>
               <h3 className="Schedule_heading">Pre Events</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                excepturi accusamus minus totam orem ipsum dolor sit amet,
-                consectetur adipisicing elit. Fugit excepturi accusamus minus
-                totam
+                
               </p>
               {/* <a href="#">Read More &gt;</a> */}
               <span className="Schedule_date">30 August  2024</span>
@@ -26,10 +23,7 @@ const Timeline = () => {
             <li>
               <h3 className="Schedule_heading">First Day</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                excepturi accusamus minus totam Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Fugit excepturi accusamus minus
-                totam
+               
               </p>
               {/* <a href="#">Read More &gt;</a> */}
               <span className="Schedule_date">30 August 2024</span>
@@ -38,10 +32,7 @@ const Timeline = () => {
             <li>
               <h3 className="Schedule_heading">Second Day</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                excepturi accusamus minus totam Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Fugit excepturi accusamus minus
-                totam
+                
               </p>
               {/* <a href="#">Read More &gt;</a> */}
               <span className="Schedule_date">31 August 2024</span>
