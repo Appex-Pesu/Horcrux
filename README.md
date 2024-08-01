@@ -7,7 +7,6 @@ Welcome to the official website for the Ctrl_Alt_Code Hackathon, organized by th
 - **Event Details:** Information about the hackathon, including dates, themes, and rules.
 - **Schedule:** Timeline of the event, with important deadlines.
 - **Registration:** Online registration form for participants.
-- **Submission Portal:** Secure submission of hackathon projects.
 - **FAQs:** Frequently asked questions and their answers.
 - **Contact:** Contact information for the organizers.
 
