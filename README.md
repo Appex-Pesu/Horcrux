@@ -64,7 +64,7 @@ This project is deployed on [Vercel](https://ctrlaltcode.vercel.app/). To deploy
      ```
 
 4. **Set Up Environment Variables:**
-   - Create a `.env` file in the root directory and add the necessary environment variables, such as your MongoDB connection string and the preferred port.
+   - Create a `.env` file in the root directory and add the necessary environment variables, such as your  preferred port.
 
 5. **Deploy on Vercel:**
    - Log in to your [Vercel account](https://vercel.com/) and import the project repository.
