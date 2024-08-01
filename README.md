@@ -98,5 +98,5 @@ For any questions, suggestions, or support, please reach out to the Appex PESU C
 Follow us on social media for updates and announcements:
 
 - **Instagram:** [@AppexPESU](https://www.instagram.com/appex.pesu/)
-- **LinkedIn:** [Appex PESU Club](https://www.linkedin.com/company/appex-pesu-club)
+- **LinkedIn:** [Appex PESU Club](https://www.linkedin.com/company/appex-pesu/about/)
 
