@@ -41,3 +41,5 @@ Make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/Appex-Pesu/Ctrl_Alt_Code.git
    cd Ctrl_Alt_Code
+   npm install
+   npm run dev
