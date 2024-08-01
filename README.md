@@ -20,8 +20,7 @@ Welcome to the official website for the Ctrl_Alt_Code Hackathon, organized by th
 - **Backend:**
   - Node.js
   - Express.js
-- **Database:** 
-  - MongoDB (for storing participant data and submissions)
+
 - **Deployment:** 
   - [Vercel](https://ctrlaltcode.vercel.app/) (for continuous deployment and hosting)
   
