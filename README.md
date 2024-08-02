@@ -16,6 +16,7 @@ Welcome to the official website for the Ctrl_Alt_Code Hackathon, organized by th
   - HTML, CSS, JavaScript
   - React.js
   - Tailwind CSS
+  - Bootstrap
 - **Backend:**
   - Node.js
   - Express.js
