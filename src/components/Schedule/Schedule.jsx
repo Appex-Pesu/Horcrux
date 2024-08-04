@@ -14,7 +14,7 @@ const Timeline = () => {
             <li>
               <h3 className="Schedule_heading">Pre Events</h3>
               <p>
-                
+                Registration &&&&
               </p>
               {/* <a href="#">Read More &gt;</a> */}
               <span className="Schedule_date">30 August  2024</span>
@@ -23,7 +23,7 @@ const Timeline = () => {
             <li>
               <h3 className="Schedule_heading">First Day</h3>
               <p>
-               
+               Code fast please
               </p>
               {/* <a href="#">Read More &gt;</a> */}
               <span className="Schedule_date">30 August 2024</span>
@@ -32,7 +32,7 @@ const Timeline = () => {
             <li>
               <h3 className="Schedule_heading">Second Day</h3>
               <p>
-                
+                Code  fast bro 
               </p>
               {/* <a href="#">Read More &gt;</a> */}
               <span className="Schedule_date">31 August 2024</span>
