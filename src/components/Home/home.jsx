@@ -101,7 +101,7 @@ const Home = () => {
               <span>
                 <IoLocationSharp />
               </span>
-              PESU 52 , PES University <br />
+              13th Floor , BE Block , PES University <br />
                Bangalore
           </h3>
         </div>
