@@ -49,7 +49,9 @@ const Home = () => {
     <div className="home-container" id="Home">
       <div className="title-container">
         <h2 className="hackathon-title">
-          Ctrl + <span>Alt</span> + Code
+           <span>H  O  R  C  R  U  X</span>  
+           
+           
         </h2>
       </div>
       <div className="section">
