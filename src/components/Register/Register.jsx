@@ -64,7 +64,7 @@ const Register = () => {
       >
         <ArrowLeft size={24} />
       </button>
-      <h2 className='heading'>Ctrl+<span className='heading-middle'>Alt</span>+Code</h2>
+      <h2 className='heading'><span className='heading-middle'>H O R C R U X</span></h2>
       <p>Register Your Team Here</p>
       <form onSubmit={handleSubmit}>
         <label>
