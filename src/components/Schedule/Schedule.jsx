@@ -5,7 +5,7 @@ const Timeline = () => {
   return (
     <div>
       <div className="about-head-section">
-        <h1 className="heading-tag-line">Schedule</h1>
+        <h1 className="heading-tag-line">S C H E D U L E</h1>
         <hr className="heading-underline" />
       </div>
       <div className="Schedule_main" id="Schedule">

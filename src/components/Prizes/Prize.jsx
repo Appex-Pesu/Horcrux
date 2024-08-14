@@ -6,7 +6,7 @@ const Prize = () => {
   return (
     <div id="Prize">
       <div className="dd_heading">
-        <h3 className="heading-tag-line">Prizes</h3>
+        <h3 className="heading-tag-line">P R I Z E S</h3>
         <hr className="heading-underline" />
       </div>
       <main className="page-content">

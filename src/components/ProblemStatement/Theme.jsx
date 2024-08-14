@@ -13,7 +13,7 @@ const Theme = () => {
   return (
     <div>
       <div className="about-head-section">
-        <h1 className="heading-tag-line">Tracks</h1>
+        <h1 className="heading-tag-line">T R A C K S</h1>
         <hr className="heading-underline" />
       </div>
       <div className="problem-content" id="Theme">
