@@ -6,7 +6,7 @@ const Venue = () => {
 	  <div className="final">
     <div className="venue-section" id="Venue">
       <div className="venue-head-section">
-        <h1 className="heading-tag-line">Venue</h1>
+        <h1 className="heading-tag-line">V E N U E</h1>
         <hr className="heading-underline" />
       </div>
       <div className="venue-container">
