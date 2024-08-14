@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 
+@font-face {
+	font-family: 'Potter';
+	src: local('Harrypotter'), url('../../fonts/HarryPotter.ttf') format('truetype');
+}
+
+.hackathon-title span{
+	font-family: 'Potter', serif !important;
+	font-size: 4rem;
+}
+
 .home-container {
   display: flex;
   justify-content: center;
@@ -36,12 +46,12 @@
   font-family: "Oswald", sans-serif;
 }
 
-.hackathon-title span {
-  font-size: 4rem;
-  font-family: "Londrina Outline", cursive;
-  text-shadow: 0 0 5px #CC00FF, 0 0 10px #CC00FF, 0 0 15px #CC00FF,
-    0 0 20px #CC00FF, 0 0 25px #CC00FF, 0 0 30px #CC00FF;
-}
+/* .hackathon-title span { */
+/*   font-size: 4rem; */
+/*   font-family: "Londrina Outline", cursive; */
+/*   text-shadow: 0 0 5px #CC00FF, 0 0 10px #CC00FF, 0 0 15px #CC00FF, */
+/*     0 0 20px #CC00FF, 0 0 25px #CC00FF, 0 0 30px #CC00FF; */
+/* } */
 
 @keyframes fadeInAndOut {
   0%, 100% {
