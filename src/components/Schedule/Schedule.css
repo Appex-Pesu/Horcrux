@@ -2,23 +2,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
 }
-
-/* @font-face {
-	font-family: Poppins;
-	src: url(./fonts/Poppins-Medium.ttf);
-} */
 
 .Schedule_main {
   width: 100%;
   height: auto;
   display: grid;
   place-items: center;
-  /*background-color: #1F0D3F;*/
   background-color: black;
   padding: 80px 0;
 }
+
 .Schedule_main .Schedule_head {
   font-size: 29px;
   color: rgba(91, 14, 216, 0.767);
@@ -26,6 +21,7 @@
   margin-bottom: 100px;
   font-weight: 500;
 }
+
 .Schedule_main .Schedule_head::after {
   content: " ";
   position: absolute;
@@ -41,17 +37,17 @@
   );
 }
 
-/* Container Css Start  */
-
 .Schedule_container {
   width: 70%;
   height: auto;
   margin: auto 0;
   position: relative;
 }
+
 .Schedule_container ul {
   list-style: none;
 }
+
 .Schedule_container ul::after {
   content: " ";
   position: absolute;
@@ -67,6 +63,7 @@
   );
   animation: moveline 6s linear forwards;
 }
+
 @keyframes moveline {
   0% {
     height: 0%;
@@ -75,10 +72,11 @@
     height: 65%;
   }
 }
+
 .Schedule_container ul li {
   width: 50%;
   height: auto;
-  padding: 15px 20px;
+  padding: 20px 30px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
@@ -101,6 +99,7 @@
   display: grid;
   place-items: center;
 }
+
 .circle::after {
   content: " ";
   width: 12px;
@@ -108,14 +107,17 @@
   background-color: #7f00ff;
   border-radius: 50%;
 }
+
 ul li:nth-child(odd) .circle {
   transform: translate(50%, -50%);
   right: -15px;
 }
+
 ul li:nth-child(even) .circle {
   transform: translate(-50%, -50%);
   left: -45px;
 }
+
 ul li .Schedule_date {
   position: absolute;
   width: 130px;
@@ -129,30 +131,42 @@ ul li .Schedule_date {
   font-size: 13px;
   box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
 }
+
 .Schedule_container ul li:nth-child(odd) {
   float: left;
   clear: right;
   text-align: right;
   transform: translateX(-30px);
 }
+
 ul li:nth-child(odd) .Schedule_date {
   right: 20px;
 }
+
 .Schedule_container ul li:nth-child(even) {
   float: right;
   clear: left;
   transform: translateX(30px);
 }
+
 ul li .Schedule_heading {
-  font-size: 17px;
+  font-size: 18px;
   color: rgb(91, 14, 216);
+  margin-bottom: 10px;
 }
+
 ul li p {
-  font-size: 13px;
-  color: #666;
-  line-height: 18px;
+  font-size: 14px;
+  color: #444;
+  line-height: 22px;
   margin: 6px 0 4px 0;
 }
+
+ul li p span {
+  display: block;
+  margin-top: 4px;
+}
+
 ul li a {
   font-size: 13px;
   text-decoration: none;
@@ -171,28 +185,32 @@ ul li a {
     width: 70%;
     transform: translateX(20px);
   }
+
   .Schedule_container ul::after {
     left: -40px;
   }
+
   .Schedule_container ul li {
     width: 100%;
     float: none;
     clear: none;
     margin-bottom: 80px;
   }
+
   .Schedule_container ul li .circle {
     left: -30px;
     transform: translate(-50%, -50%);
   }
+
   .Schedule_container ul li .Schedule_date {
     left: 20px;
   }
+
   .Schedule_container ul li:nth-child(odd) {
     transform: translateX(0px);
-    /* text-align: left;
-         */
     right: 42px;
   }
+
   .Schedule_container ul li:nth-child(even) {
     transform: translateX(0px);
     right: 42px;
@@ -203,9 +221,11 @@ ul li a {
   .Schedule_container {
     width: 80%;
   }
+
   .Schedule_container ul::after {
     left: -20px;
   }
+
   .Schedule_container ul li .circle {
     left: -10px;
   }
