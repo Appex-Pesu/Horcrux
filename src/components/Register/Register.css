@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Potter';
+	src: local('Harrypotter'), url('../../fonts/HarryPotter.ttf') format('truetype');
+}
+
 .contact-container {
   position: relative;
   max-width: 600px;
@@ -43,38 +48,103 @@
 
 
 .contact-container button[type="submit"]{
-  background-color: transparent;
-  border: 2px solid #02f2fa; 
-  color: #02f2fa; 
-  padding: 10px 20px;
-  display: inline-block;
-  text-align: center; 
-  text-decoration: none;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: all 0.3s ease;  
-}
-
-.contact-container a {
+  /* background-color: transparent; */
+  /* border: 2px solid #02f2fa; */ 
+  /* color: #02f2fa; */ 
+  /* padding: 10px 20px; */
+  /* display: inline-block; */
+  /* text-align: center; */ 
+  /* text-decoration: none; */
+  /* border-radius: 15px; */
+  /* cursor: pointer; */
+  /* transition: all 0.3s ease; */ 
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: inherit;
+  color: #d3a625; /* Golden color for the text */
   background-color: transparent;
-  border: 2px solid #02f2fa; 
-  color: #02f2fa; 
+  border: 2px solid #740001; /* Maroon border */
   padding: 10px 20px;
-  display: inline-block;
+  font-family: 'Cinzel', serif; /* Magical, vintage font */
+  font-size: 1.2rem;
   text-align: center; 
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000; /* Subtle shadow for a magical effect */
+}
+
+.contact-container a {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 2px; */
+  /* text-decoration: none; */
+  /* color: inherit; */
+  /* background-color: transparent; */
+  /* border: 2px solid #02f2fa; */ 
+  /* color: #02f2fa; */ 
+  /* padding: 10px 20px; */
+  /* display: inline-block; */
+  /* text-align: center; */ 
+  /* text-decoration: none; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
   text-decoration: none;
+  color: #d3a625; /* Golden color for the text */
+  background-color: transparent;
+  border: 2px solid #740001; /* Maroon border */
+  padding: 10px 20px;
+  font-family: 'Cinzel', serif; /* Magical, vintage font */
+  font-size: 1.2rem;
+  text-align: center; 
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000; /* Subtle shadow for a magical effect */
+  
 }
 
 .contact-container button[type="submit"]:hover {
+  /* background-color: transparent; */
+  /* color: #02f21a; */
+  /* border-color: #02f21a; */
+  background-color: #740001; /* Maroon background on hover */
+  color: #fff; /* White text on hover */
+  border: 2px solid #d3a625; /* Golden border on hover */
+  text-shadow: 2px 2px 0 #d3a625, 3px 3px 0 #000; /* Updated shadow on hover */
+
+}
+
+
+.register-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  color: #d3a625; /* Golden color for the text */
   background-color: transparent;
-  color: #02f21a;
-  border-color: #02f21a;
+  border: 2px solid #740001; /* Maroon border */
+  padding: 10px 20px;
+  font-family: 'Cinzel', serif; /* Magical, vintage font */
+  font-size: 1.2rem;
+  text-align: center; 
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000; /* Subtle shadow for a magical effect */
+}
+
+.register-btn a:hover {
+  background-color: #740001; /* Maroon background on hover */
+  color: #fff; /* White text on hover */
+  border: 2px solid #d3a625; /* Golden border on hover */
+  text-shadow: 2px 2px 0 #d3a625, 3px 3px 0 #000; /* Updated shadow on hover */
 }
 
 
@@ -104,11 +174,10 @@
 }
 
 .heading-middle {
+  font-family: 'Potter', serif !important;
   font-size: 1.5rem;
   color: white;
-  font-family: "Londrina Outline", cursive;
-  text-shadow: 0 0 5px #CC00FF, 0 0 10px #CC00FF, 0 0 15px #CC00FF,
-    0 0 20px #CC00FF, 0 0 25px #CC00FF, 0 0 30px #CC00FF;
+  text-shadow: 0 0 5px #740001, 0 0 10px #740001, 0 0 15px #740001, 0 0 20px #740001, 0 0 25px #740001, 0 0 30px #740001;
 }
 
 .star{

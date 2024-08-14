@@ -58,7 +58,7 @@
 
 .navbar a {
   color: #fff;
-  /* color: #03defb; Depending on changing color pallet */
+  /* color: #d3a625; Depending on changing color pallet */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
@@ -66,7 +66,7 @@
 }
 
 .navbar a:hover {
-  color: #03defb;
+  color: #d3a625;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -115,7 +115,7 @@
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #03defb;
+    background: #d3a625;
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -259,7 +259,7 @@
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #03defb;
+    background: #d3a625;
   }
 
   .navbar-container .hamburger-lines .line1 {
