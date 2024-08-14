@@ -49,7 +49,7 @@ const Home = () => {
     <div className="home-container" id="Home">
       <div className="title-container">
         <h2 className="hackathon-title">
-           <span>H  O  R  C  R  U  X</span>  
+           <span className="text-shadow">H  O  R  C  R  U  X</span>  
            
            
         </h2>

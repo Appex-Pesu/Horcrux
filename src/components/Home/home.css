@@ -9,6 +9,7 @@
 .hackathon-title span{
 	font-family: 'Potter', serif !important;
 	font-size: 4rem;
+	text-shadow: 0 0 5px #740001, 0 0 10px #740001, 0 0 15px #740001, 0 0 20px #740001, 0 0 25px #740001, 0 0 30px #740001;
 }
 
 .home-container {
