@@ -76,23 +76,6 @@
   }
 }
 
-/* .hackathon-title { */
-/*   font-size: 4rem; */
-/*   color: #fff; */
-/*   font-weight: bold; */
-/*   margin-top: 0; */
-/*   font-family: "Oswald", sans-serif; */
-/*   text-align: center; */
-/*   animation: fadeInAndOut 4s infinite; */
-/* } */
-
-/* .hackathon-title span { */
-/*   font-size: 4rem; */
-/*   font-family: "Londrina Outline", cursive; */
-/*   color: #CC00FF; */
-/*   animation: textGlow 2s infinite; */
-/* } */
-
 
 .section {
   display: flex;
@@ -124,12 +107,14 @@ h1 {
 }
 
 .hackerspace {
-  color: #02f2fa;
+  color: #740001;
   font-size: 3rem;
   font-family: Poppins, sans-serif;
   font-weight: normal;
   margin-bottom: -10px;
 }
+
+/*02f2fa*/
 
 h2 {
   color: #333;
@@ -149,13 +134,16 @@ h3 {
 
 .date {
   margin-top: 0;
-  font-size: 2.5rem;
-  line-height: 5rem;
-  color: #02f2fa;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  color: #d3a625;
   display: flex;
   flex-direction: column;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
+  font-family: 'Cinzel', serif; /* A font that gives an old, magical vibe */
+  letter-spacing: 2px;
 }
 
 .date b {
@@ -206,23 +194,23 @@ h3 {
 }
 
 .span1 {
-  color: #02f2fa;
+  color: #d3a625;
 }
 
 .span2 {
-  color: #9e52e9;
+  color: #740001;
 }
 
 .span3 {
-  color: #ec398b;
+  color: #d3a625;
 }
 
 .span4 {
-  color: #554bb9f2;
+  color: #740001;
 }
 
 .home-text {
-  color: #02f2fa;
+  color: #fffff0;
   font-size: 1.2rem;
   /*font-family: "Oswald", sans-serif;*/
   font-weight: 300;
@@ -276,18 +264,45 @@ h3 {
   }
 
 
-.register-btn {
-  background-color: transparent;
-  border: 2px solid #02f2fa; 
-  color: #02f2fa; 
-  padding: 10px 20px;
-  display: inline-block;
-  text-align: center; 
-  text-decoration: none;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  }
+/* .register-btn { */
+/*   background-color: transparent; */
+/*   border: 2px solid #740001; */ 
+/*   color: #740001; */ 
+/*   padding: 10px 20px; */
+/*   display: inline-block; */
+/*   text-align: center; */ 
+/*   text-decoration: none; */
+/*   border-radius: 15px; */
+/*   cursor: pointer; */
+/*   transition: all 0.3s ease; */
+/*   } */
+
+/* .register-btn a { */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   align-items: center; */
+/*   gap: 2px; */
+/*   text-decoration: none; */
+/*   color: inherit; */
+/*   background-color: transparent; */
+/*   border: 2px solid #740001; */ 
+/*   color: #740001; */ 
+/*   padding: 10px 20px; */
+/*   display: inline-block; */
+/*   text-align: center; */ 
+/*   text-decoration: none; */
+/*   border-radius: 15px; */
+/*   cursor: pointer; */
+/*   transition: all 0.3s ease; */
+
+/* } */
+
+/* .register-btn:hover { */
+/*   background-color: transparent; */
+/*   color: #02f21a; */
+/*   border-color: #02f21a; */
+/* } */
+
 
 .register-btn a {
   display: flex;
@@ -295,25 +310,27 @@ h3 {
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: inherit;
+  color: #d3a625; /* Golden color for the text */
   background-color: transparent;
-  border: 2px solid #02f2fa; 
-  color: #02f2fa; 
+  border: 2px solid #740001; /* Maroon border */
   padding: 10px 20px;
-  display: inline-block;
+  font-family: 'Cinzel', serif; /* Magical, vintage font */
+  font-size: 1.2rem;
   text-align: center; 
-  text-decoration: none;
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
-
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000; /* Subtle shadow for a magical effect */
 }
 
-.register-btn:hover {
-  background-color: transparent;
-  color: #02f21a;
-  border-color: #02f21a;
+.register-btn a:hover {
+  background-color: #740001; /* Maroon background on hover */
+  color: #fff; /* White text on hover */
+  border: 2px solid #d3a625; /* Golden border on hover */
+  text-shadow: 2px 2px 0 #d3a625, 3px 3px 0 #000; /* Updated shadow on hover */
 }
+
+
 
 .register {
   transform: rotate(-45deg);
