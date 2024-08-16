@@ -188,7 +188,7 @@ h3 {
 }
 
 .span1 {
-  color: whitesmoke;
+  color: black;
   text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }
 
@@ -198,7 +198,7 @@ h3 {
 }
 
 .span3 {
-  color: whitesmoke;
+  color: black;
   text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }
 
@@ -208,7 +208,7 @@ h3 {
 }
 
 .home-text {
-  color: whitesmoke;
+  color: yellow;
   font-size: 1.2rem;
   /*font-family: "Oswald", sans-serif;*/
   font-weight: 800;
@@ -240,13 +240,13 @@ h3 {
   padding-right: 0.5rem;
 }
 
-.button {
+/* .button {
   display: flex;
   gap: 2%;
-  color: whitesmoke;
-}
+  color: yellow;
+} */
 
-.btn {
+/* .btn {
   display: block;
   width: auto;
   height: 40px;
@@ -261,16 +261,16 @@ h3 {
   justify-content: center;
   color: #000;
 
-  }
+  } */
 
-.register-btn a {
+/* .register-btn a {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: whitesmoke; 
-  background-color: transparent;
+  color: #740001; 
+  background-color: #740001;
   border: 2px solid #740001;
   padding: 10px 20px;
   font-family: 'Cinzel', serif;
@@ -280,9 +280,37 @@ h3 {
   cursor: pointer;
   transition: all 0.3s ease;
   text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000;
-}
+} */
 
-.register-btn a:hover {
+/* .tholdu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  color: #740001; 
+  background-color: #740001;
+  border: 2px solid #740001;
+  padding: 10px 20px;
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+  text-align: center; 
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000;
+  width: auto;
+  height: 40px;
+  margin: 70px;
+  min-width: 150px;
+  transition: 0.5s;
+  font-weight: 600 !important;
+  margin-top: 20px;
+  
+} */
+
+
+/* .tholdu :hover {
   background-color: #740001;
   color: #fff; 
   border: 2px solid whitesmoke;
@@ -291,6 +319,61 @@ h3 {
 
 .register {
   transform: rotate(-45deg);
+} */
+
+.tholdu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  color: yellow; /* Changed to yellow */
+  background-color: #740001;
+  border: 2px solid #740001;
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+  text-align: center; 
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000;
+  width: auto;
+  height: 50px;
+  margin: 30px;
+  min-width: 150px;
+  transition: 0.5s;
+  font-weight: 600 !important;
+  margin-top: 20px;
+  padding: 0; /* Added to remove default button padding */
+}
+
+.tholdu:hover {
+  background-color: #740001;
+  color: yellow; 
+  border: 2px solid whitesmoke;
+  /* text-shadow: 2px 2px 0 whitesmoke, 3px 3px 0 #000; */
+}
+
+.tholdu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+  border: yellow;
+  border-width: 10px;
+}
+
+.register {
+  transform: rotate(-45deg);
+}
+
+.button {
+  display: flex;
+  gap: 2%;
+  color: yellow;
 }
 
 @keyframes fadeIn {
@@ -593,4 +676,9 @@ h3 {
   font-size: 1rem;
   font-weight: 800;
   letter-spacing: 2px;
+}
+
+.thold {
+  color: whitesmoke;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }

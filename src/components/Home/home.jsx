@@ -77,12 +77,9 @@ const Home = () => {
               <div className="timer-item-label">Seconds</div>
 			</div>
           </div>
-	  <button
-              type="button"
-              className="btn btn-2 hover-slide-right register-btn"
-            >
-              <Link to="/register">Register now</Link>
-            </button>
+          <button type="button" className="tholdu">
+  <Link to="/register">Register now</Link>
+</button>
         </div>
         <div className="right-section"> 
           <h1 className="greetings">
@@ -99,7 +96,7 @@ const Home = () => {
 			{/* Step into a realm of limitless possibilities where your wildest dreams become reality. Join us for a colossal hackathon event designed to ignite your imagination and test your prowess like never before. */}
 			</span>
           </p>
-          <h3 className="span3">
+          <h3 className="thold">
               <span>
                 <IoLocationSharp />
               </span>
