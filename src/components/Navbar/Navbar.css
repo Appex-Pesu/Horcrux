@@ -134,7 +134,7 @@
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #212529;
+    background: transparent;
     height: 30vh;
     width: 300px;
     transform: translate(-150%);
@@ -366,7 +366,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0009;
+  background-color: transparent;
   backdrop-filter: blur(0);
   transition: backdrop-filter 0.3s ease-in-out;
   z-index: 999;

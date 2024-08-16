@@ -19,8 +19,7 @@
   flex-direction: column;
   gap: 1rem;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/images/Head.jpg) center no-repeat;
+  background: url(/) center no-repeat;
   /* background: #400280;*/
   background-size: cover;
   overflow: hidden;
@@ -138,7 +137,7 @@ h3 {
   padding-bottom: 0;
   font-size: 3rem;
   line-height: 4.5rem;
-  color: #d3a625;
+  color: black;
   display: flex;
   flex-direction: column;
   text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
@@ -151,7 +150,7 @@ h3 {
 }
 
 .date span {
-  color: #999;
+  color: whitesmoke;
   font-weight: 400;
 }
 
@@ -173,12 +172,14 @@ h3 {
   font-size: 3rem;
   font-weight: bold;
   color: #fff;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }
 
 .timer-item-label {
   font-size: 17px;
-  color: #999;
+  color: whitesmoke;
   font-family: Poppins, sans-serif;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }
 
 .greetings {
@@ -194,26 +195,31 @@ h3 {
 }
 
 .span1 {
-  color: #d3a625;
+  color: whitesmoke;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }
 
 .span2 {
   color: #740001;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }
 
 .span3 {
-  color: #d3a625;
+  color: whitesmoke;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }
 
 .span4 {
   color: #740001;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
 }
 
 .home-text {
-  color: #fffff0;
+  color: whitesmoke;
   font-size: 1.2rem;
   /*font-family: "Oswald", sans-serif;*/
-  font-weight: 300;
+  font-weight: 800;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
   letter-spacing: 2px;
 }
 
@@ -244,6 +250,7 @@ h3 {
 .button {
   display: flex;
   gap: 2%;
+  color: whitesmoke;
 }
 
 .btn {
@@ -310,7 +317,7 @@ h3 {
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: #d3a625; /* Golden color for the text */
+  color: whitesmoke; /* Golden color for the text */
   background-color: transparent;
   border: 2px solid #740001; /* Maroon border */
   padding: 10px 20px;
@@ -326,8 +333,8 @@ h3 {
 .register-btn a:hover {
   background-color: #740001; /* Maroon background on hover */
   color: #fff; /* White text on hover */
-  border: 2px solid #d3a625; /* Golden border on hover */
-  text-shadow: 2px 2px 0 #d3a625, 3px 3px 0 #000; /* Updated shadow on hover */
+  border: 2px solid whitesmoke; /* Golden border on hover */
+  text-shadow: 2px 2px 0 whitesmoke, 3px 3px 0 #000; /* Updated shadow on hover */
 }
 
 
@@ -632,8 +639,8 @@ h3 {
 
 
 .normal-text {
-  color: gray;
+  color: black;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 800;
   letter-spacing: 2px;
 }
