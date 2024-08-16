@@ -49,7 +49,7 @@
   width: 100%;
   text-align: center;
   color: black;
-  background-color: black;
+  background-color: transparent;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
     0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
     0 16px 16px rgba(0, 0, 0, 0.1);
@@ -246,7 +246,7 @@
 }
 
 .d_card:nth-child(1):before {
-  background-image: url("/images/Gold1.png");
+  background-image: url("/images/Gold1-removebg-preview.png");
 }
 
 .d_card:nth-child(2):before {
