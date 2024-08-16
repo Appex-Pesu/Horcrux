@@ -93,6 +93,7 @@
   font-size: 2rem;
   font-weight: 600;
   color: #000000;
+  text-shadow: 2px 2px 0 gray, 4px 4px 0 #000;
   overflow: hidden;
   font-family: Poppins, sans-serif , Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -105,7 +106,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  /* background: linear-gradient(135deg, #1a9be6, #ffff00); */
+  background: linear-gradient(135deg, #1a9be6, #808080);
   opacity: 0.45;
   z-index: -1; 
 }
