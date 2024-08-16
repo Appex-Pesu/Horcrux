@@ -1,6 +1,6 @@
 [
   {
-    "frontImage": "public/images/genai.jpg",
+    "frontImage": "/public/images/genai.jpg",
     "frontText": "Generative AI and Machine Learning ",
     "backText": [
       "Neural Magic",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "frontImage": "public/images/blockchain-crypto.webp",
+    "frontImage": "/public/images/blockchain-crypto.webp",
     "frontText": "Blockchain & Crypto",
     "backText": [
       "Digital Fortress",
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "frontImage": "public/images/web.jpg",
+    "frontImage": "/public/images/web.jpg",
     "frontText": "Web / App Development",
     "backText": [
       "Web/App Development",
@@ -28,7 +28,7 @@
     ]
   },
   {
-    "frontImage": "public/images/sec.webp",
+    "frontImage": "/public/images/sec.webp",
     "frontText": "Cybersecurity",
     "backText": [
       "Cybersecurity",
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "frontImage": "public/images/AR.jpg",
+    "frontImage": "/public/images/AR.jpg",
     "frontText": "AR /  VR",
     "backText": [
       "Reality Remix",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "frontImage": "public/images/open.webp",
+    "frontImage": "/public/images/open.webp",
     "frontText": "Open Innovation",
     "backText": [
       "Unity Pallete",
