@@ -48,16 +48,6 @@
 
 
 .contact-container button[type="submit"]{
-  /* background-color: transparent; */
-  /* border: 2px solid #02f2fa; */ 
-  /* color: #02f2fa; */ 
-  /* padding: 10px 20px; */
-  /* display: inline-block; */
-  /* text-align: center; */ 
-  /* text-decoration: none; */
-  /* border-radius: 15px; */
-  /* cursor: pointer; */
-  /* transition: all 0.3s ease; */ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,19 +67,6 @@
 }
 
 .contact-container a {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* gap: 2px; */
-  /* text-decoration: none; */
-  /* color: inherit; */
-  /* background-color: transparent; */
-  /* border: 2px solid #02f2fa; */ 
-  /* color: #02f2fa; */ 
-  /* padding: 10px 20px; */
-  /* display: inline-block; */
-  /* text-align: center; */ 
-  /* text-decoration: none; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,9 +87,6 @@
 }
 
 .contact-container button[type="submit"]:hover {
-  /* background-color: transparent; */
-  /* color: #02f21a; */
-  /* border-color: #02f21a; */
   background-color: #740001; /* Maroon background on hover */
   color: #fff; /* White text on hover */
   border: 2px solid #d3a625; /* Golden border on hover */
