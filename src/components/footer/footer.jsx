@@ -12,8 +12,8 @@ const Footer = () => {
         <div className="footerSection contactSection">
           <h3 className="footerTitle">Contact</h3>
           <ul className="contactList">
-            <li>Hemanth: 6363546350</li>
-            <li>Atheek: 6361970815</li>
+            {/* <li>Hemanth: 6363546350</li>
+            <li>Atheek: 6361970815</li> */}
           </ul>
         </div>
         

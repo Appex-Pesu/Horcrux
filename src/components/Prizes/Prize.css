@@ -172,7 +172,8 @@
 
 .data-content {
   font-family: var(--font-serif);
-  color: rgb(231, 15, 15);
+  color: whitesmoke;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
   font-size: 4rem;
   font-style: Arial;
   line-height: 1.35;
@@ -275,7 +276,7 @@
   position: relative;
   transform-style: preserve-3d;
   transition: 300ms ease;
-  background: linear-gradient(135deg, #ffffff, #ffffff);
+  background: transparent;
 }
 
 .prize-button:before {

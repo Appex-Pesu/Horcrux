@@ -23,7 +23,10 @@
 
 .venue-subheading-left {
   width: 100%;
-  color: #fff;
+  color: white;
+  text-shadow: 2px 2px 0 #740001, 4px 4px 0 #000;
+  font-size: larger;
+  font-weight: 800;
   padding-top: 1rem;
   text-align: center;
 }
