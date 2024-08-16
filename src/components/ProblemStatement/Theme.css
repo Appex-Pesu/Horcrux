@@ -105,7 +105,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #1a9be6, #ffff00);
+  /* background: linear-gradient(135deg, #1a9be6, #ffff00); */
   opacity: 0.45;
   z-index: -1; 
 }
