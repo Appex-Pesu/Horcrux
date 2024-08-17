@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
@@ -35,6 +35,11 @@ const Footer = () => {
                 <BsInstagram />
               </a>
             </li>
+			<li className="whatsapp">
+			  <a href="https://chat.whatsapp.com/BV8uIDtAx3OEuT0DKFzNlJ" target="_blank" rel="noopener noreferrer">
+				<FaWhatsapp />
+			</a>
+			</li>
           </ul>
         </div>
       </div>

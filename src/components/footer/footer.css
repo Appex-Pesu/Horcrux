@@ -88,6 +88,10 @@
   background-image: linear-gradient(#405de6, #833Ab4, #FD1D1d, #f77737, #fcaf45);
 }
 
+.socialLogo .whatsapp a:hover {
+	background: #25d366;
+}
+
 .copyContainer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   background-color: #000000;
