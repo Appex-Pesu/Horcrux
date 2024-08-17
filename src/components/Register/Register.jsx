@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import './Register.css';
+import { FaWhatsapp } from "react-icons/fa";
 
 const Register = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -52,6 +53,8 @@ const Register = () => {
       </button>
         <h2>Registration Successful!</h2>
         <p>Thank you for registering. We&apos;ll be in touch soon.</p>
+		<p>Join our WhatsApp group and Stay tuned</p>
+		<a href="https://chat.whatsapp.com/BV8uIDtAx3OEuT0DKFzNlJ" className="register-btn"><FaWhatsapp />&nbsp; Join Now</a>
       </div>
     );
   }
@@ -93,7 +96,7 @@ const Register = () => {
         </label>
         <label>
           Phone number of Leader:<span className='star'>*</span>
-          <input type="text" name="entry.451885995" placeholder='phone number' required />
+          <input type="tex t" name="entry.451885995" placeholder='phone number' required />
         </label>
         <label>
           Track:<span className='star'>*</span>

@@ -53,17 +53,17 @@
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: #d3a625; /* Golden color for the text */
+  color: #d3a625;
   background-color: transparent;
-  border: 2px solid #740001; /* Maroon border */
+  border: 2px solid #740001;
   padding: 10px 20px;
-  font-family: 'Cinzel', serif; /* Magical, vintage font */
+  font-family: 'Cinzel', serif;
   font-size: 1.2rem;
   text-align: center; 
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000; /* Subtle shadow for a magical effect */
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000;
 }
 
 .contact-container a {
@@ -72,28 +72,26 @@
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: #d3a625; /* Golden color for the text */
+  color: #d3a625;
   background-color: transparent;
-  border: 2px solid #740001; /* Maroon border */
+  border: 2px solid #740001;
   padding: 10px 20px;
-  font-family: 'Cinzel', serif; /* Magical, vintage font */
+  font-family: 'Cinzel', serif;
   font-size: 1.2rem;
   text-align: center; 
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000; /* Subtle shadow for a magical effect */
-  
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000;
 }
 
 .contact-container button[type="submit"]:hover {
-  background-color: #740001; /* Maroon background on hover */
-  color: #fff; /* White text on hover */
-  border: 2px solid #d3a625; /* Golden border on hover */
-  text-shadow: 2px 2px 0 #d3a625, 3px 3px 0 #000; /* Updated shadow on hover */
+  background-color: #740001;
+  color: #fff;
+  border: 2px solid #d3a625;
+  text-shadow: 2px 2px 0 #d3a625, 3px 3px 0 #000;
 
 }
-
 
 .register-btn a {
   display: flex;
@@ -101,24 +99,24 @@
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: #d3a625; /* Golden color for the text */
+  color: #d3a625;
   background-color: transparent;
-  border: 2px solid #740001; /* Maroon border */
+  border: 2px solid #740001;
   padding: 10px 20px;
-  font-family: 'Cinzel', serif; /* Magical, vintage font */
+  font-family: 'Cinzel', serif;
   font-size: 1.2rem;
   text-align: center; 
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000; /* Subtle shadow for a magical effect */
+  text-shadow: 2px 2px 0 #740001, 3px 3px 0 #000;
 }
 
 .register-btn a:hover {
-  background-color: #740001; /* Maroon background on hover */
-  color: #fff; /* White text on hover */
-  border: 2px solid #d3a625; /* Golden border on hover */
-  text-shadow: 2px 2px 0 #d3a625, 3px 3px 0 #000; /* Updated shadow on hover */
+  background-color: #740001;
+  color: #fff;
+  border: 2px solid #d3a625;
+  text-shadow: 2px 2px 0 #d3a625, 3px 3px 0 #000;
 }
 
 
