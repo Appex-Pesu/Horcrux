@@ -13,7 +13,7 @@ const Footer = () => {
           <h3 className="footerTitle">Contact</h3>
           <ul className="contactList">
             <li>Hemanth: 6363546350</li>
-            <li>Atheek: 6361970815</li>
+            <li>B R Arjun: 9449542890</li>
           </ul>
         </div>
         
