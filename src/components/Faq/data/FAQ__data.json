@@ -5,7 +5,11 @@
   },
   {
     "question": "Who should participate in HORCRUX?",
-    "answer": "Students from 1st to 3rd Year can participate in this 24 Hour Hackathon. Do note that you have to bring your own stuff like Laptops and other hardware(if necessary)."
+    "answer": "Students from 1st to 3rd Year acroos any Branch can participate in this 24 Hour Hackathon. Do note that you have to bring your own stuff like Laptops and other hardware(if necessary)."
+  },
+  {
+    "question": "Can I form a team across different branches ?",
+    "answer":"Yes , You can form team across different branches."
   },
   {
     "question": "Can I work on a project I've already started or do I need to create something entirely new?",
@@ -27,5 +31,6 @@
     "question": "What should be the size of my team?",
     "answer":"The team size can be of 3-4 people."
   }
+ 
 
 ]
