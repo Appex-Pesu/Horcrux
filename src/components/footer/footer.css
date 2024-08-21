@@ -1,3 +1,14 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.mainContent {
+  flex: 1;
+}
+
 .mainContainer {
   margin: 0;
   padding: 0;
@@ -7,7 +18,6 @@
   color: #fff;
   width: 100%;
   background: url() bottom center no-repeat;
-  bottom: 0;
 }
 
 .contentContainer {
@@ -81,7 +91,7 @@
 }
 
 .socialLogo .github a:hover {
-	background: #000000;
+  background: #000000;
 }
 
 .socialLogo .instalogo a:hover {
@@ -89,7 +99,7 @@
 }
 
 .socialLogo .whatsapp a:hover {
-	background: #25d366;
+  background: #25d366;
 }
 
 .copyContainer {

@@ -59,7 +59,7 @@ const App = () => {
         <Route path="/register" element={
           <>
             <Register />
-            <Footer />
+            {/* <Footer /> */}
           </>
         } />
       </Routes>
