@@ -190,20 +190,20 @@ const Register = () => {
     );
   }
 
-  if (isFormClosed) { // Render this section if form responses are closed
-    return (
-      <div className="contact-container">
-        <button 
-          onClick={handleBack}
-          className="back-button"
-        >
-          <ArrowLeft size={24} />
-        </button>
-        <h2>Registration Temporarily Closed</h2>
-        <p>We have temporarily stopped taking responses. Please check back later.</p>
-      </div>
-    );
-  }
+  // if (isFormClosed) { // Render this section if form responses are closed
+  //   return (
+  //     <div className="contact-container">
+  //       <button 
+  //         onClick={handleBack}
+  //         className="back-button"
+  //       >
+  //         <ArrowLeft size={24} />
+  //       </button>
+  //       <h2>Registration Temporarily Closed</h2>
+  //       <p>We have temporarily stopped taking responses. Please check back later.</p>
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className="contact-container">
