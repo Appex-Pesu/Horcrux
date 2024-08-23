@@ -60,6 +60,12 @@ const Register = () => {
   } else {
 	  return (
 		  <div className="contact-container">
+		  <button 
+			onClick={handleBack}
+			className="back-button"
+			>
+			<ArrowLeft size={24} />
+		</button>
 		  <h2>Registration Temporarily Closed</h2>
           <p>We have temporarily stopped taking responses. Please check back later.</p>
 
