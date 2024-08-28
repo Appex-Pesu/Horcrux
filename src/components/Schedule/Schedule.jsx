@@ -17,7 +17,7 @@ const Timeline = () => {
                 🕒 3:00 PM - 4:00 PM: Registration & Meet-and-Greet<br />
                 🎤 4:00 PM - 4:30 PM: Grand Opening Ceremony - Let's Get Started!<br />
               </p>
-              <span className="Schedule_date">30 August 2024</span>
+              <span className="Schedule_date">13 September 2024</span>
               <span className="circle"></span>
             </li>
             <li>
@@ -26,7 +26,7 @@ const Timeline = () => {
                 💻 5:00 PM: Coding Round Kicks Off - Time to Shine!<br />
                 🔍 8:00 PM: Mentoring Round 1 - Show Your Progress & Get Expert Tips!<br />
               </p>
-              <span className="Schedule_date">30 August 2024</span>
+              <span className="Schedule_date">13 September 2024</span>
               <span className="circle"></span>
             </li>
             <li>
@@ -40,7 +40,7 @@ const Timeline = () => {
                 💥 3:00 PM - 4:00 PM: Final Presentations - Pitch Your Ideas to Industry Experts!<br />
                 🎉 4:00 PM - 4:30 PM: Closing Ceremony - Celebrate Your Achievements!<br />
               </p>
-              <span className="Schedule_date">31 August 2024</span>
+              <span className="Schedule_date">14 September 2024</span>
               <span className="circle"></span>
             </li>
           </ul>
