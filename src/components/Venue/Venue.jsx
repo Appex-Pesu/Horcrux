@@ -18,7 +18,7 @@ const Venue = () => {
         </div>
         <div className="venue-subsection">
           <div className="venue-subheading-left">
-            <p className="venue-date">30-31 August, 2024</p>
+            <p className="venue-date">13 - 14 September, 2024</p>
             <address className="venue-date">
 				13th Floor , BE Block, 
               PES University , Bengaluru <br />
