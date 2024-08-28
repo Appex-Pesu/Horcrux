@@ -57,7 +57,7 @@ const Home = () => {
       <div className="section">
         <div className="left-section">
           <h3 className="date">
-            <b className="lgx-counter">30</b> <span>August</span>
+            <b className="lgx-counter">13</b> <span>September</span>
           </h3>
           <div className="timer">
             <div className="timer-item">
