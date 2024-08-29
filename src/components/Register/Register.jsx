@@ -57,21 +57,21 @@ const Register = () => {
 		<a href="https://chat.whatsapp.com/BV8uIDtAx3OEuT0DKFzNlJ" className="register-btn"><FaWhatsapp />&nbsp; Join Now</a>
       </div>
     );
-   } //else {
-	  // return (
-		  // <div className="contact-container">
-		  // <button 
-			// onClick={handleBack}
-			// className="back-button"
-			// >
-			// <ArrowLeft size={24} />
-		// </button>
-		  // <h2>Registration Temporarily Closed</h2>
-  //         <p>We have temporarily stopped taking responses. Please check back later.</p>
+   } else {
+	  return (
+		  <div className="contact-container">
+		  <button 
+			onClick={handleBack}
+			className="back-button"
+			>
+			<ArrowLeft size={24} />
+		</button>
+		  <h2>Registration Temporarily Closed</h2>
+         <p>We have temporarily stopped taking responses. Please check back later.</p>
 
-		  // </div>
-	  // );
-  // }
+		  </div>
+	  );
+  }
 
   return (
     <div className="contact-container">
