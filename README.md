@@ -72,20 +72,13 @@ This project is deployed on [Website](https://horcrux-appex.vercel.app/). To dep
    - Set up the environment variables in the Vercel dashboard.
    - Deploy the project. Vercel will automatically handle the build process and deployment.
 
-Once deployed, the website will be accessible at your Vercel project's domain.
 
----
 
 ## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software under the following conditions:
 
-- **Attribution:** You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **No Warranty:** The software is provided "as is," without warranty of any kind.
 
-For more details, please see the full [LICENSE](LICENSE) file.
-
----
 
 ## Contact
 
