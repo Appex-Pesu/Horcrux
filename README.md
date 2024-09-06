@@ -10,20 +10,6 @@ Welcome to the official website for the Horcrux Hackathon, organized by the Appe
 - **FAQs:** Frequently asked questions and their answers.
 - **Contact:** Contact information for the organizers.
 
-## Tech Stack
-
-- **Frontend:** 
-  - HTML, CSS, JavaScript
-  - React.js
-  - Tailwind CSS
-  - Bootstrap
-- **Backend:**
-  - Node.js
-  - Express.js
-
-- **Deployment:** 
-  - [Vercel](https://horcrux-appex.vercel.app/) (for continuous deployment and hosting)
-
 ## Contact
 
 For any questions, suggestions, or support, please reach out to the Appex PESU Club:
