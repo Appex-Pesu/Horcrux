@@ -58,21 +58,21 @@ const Register = () => {
       </div>
     );
 }
-   else {
-	  return (
-		  <div className="contact-container">
-		  <button 
-			onClick={handleBack}
-			className="back-button"
-			>
-			<ArrowLeft size={24} />
-		</button>
-		  <h2>Registrations for HORCRUX 2024 ended</h2>
-         <p>Selected teams will be informed soon</p>
+   // else {
+	  // return (
+		  // <div className="contact-container">
+		  // <button 
+			// onClick={handleBack}
+			// className="back-button"
+			// >
+			// <ArrowLeft size={24} />
+		// </button>
+		  // <h2>Registrations for HORCRUX 2024 ended</h2>
+   //       <p>Selected teams will be informed soon</p>
 
-		  </div>
-	  );
-  }
+		  // </div>
+	  // );
+  // }
 
   return (
     <div className="contact-container">
